@@ -40,30 +40,48 @@
     "Standart": {
 
       "beforeGameStart": {
-      "initialBoardSetup": [],
-        "boardCategoriesInSideboard": ["Unidade Especial"],
-         "boardCardSelection": [
-    { "category": "Unidade Especial", "min": 0, "max": 20, "unselectedDestination": "Deck_Adicional" }
-         ]
+        "initialBoardSetup": []
       },
 
       "mulligan": {
-        "info": "",
-        "startingHandSize": "7",
-        "drawNewHand": true,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false,
-                "mulliganCount": {
+        "info": "Escolha as cartas que deseja trocar.",
+        "startingHandSize": 7,
+
+        "mulliganCount": {
+          "min": 0,
           "max": 1
+        },
+
+        "mulliganCycle": {
+          "steps": [
+            "toBottom",
+            "draw"
+          ],
+
+          "selectionRange": {
+            "min": 0,
+            "max": 7
+          },
+
+          "keepCardsOrder": false
         }
       },
 
       "newTurn": {
         "drawOnStart": false,
-        "drawPerTurn": 1
+        "drawPerTurn": 1,
+        "sharedTurn": false,
+        "turnOrder": "default"
       },
 
+      "defaultNotes": "",
+
       "tokens": [],
+
+      "countersStartingValues": [
+        0,
+        "0"
+      ],
 
       "hideFacedDownCards": true,
 
@@ -104,13 +122,15 @@
               "direction": "column",
 
               "style": {
-                "width": "60%"
+                "width": "60%",
+                "align-items": "center"
               },
 
               "content": [
                 {
                   "section": "Vanguarda"
                 },
+
                 {
                   "section": "Retaguarda"
                 }
