@@ -48,7 +48,7 @@
         "startingHandSize": 7,
 
         "mulliganCount": {
-          "min": 1,
+          "min": 0,
           "max": 1
         },
 
