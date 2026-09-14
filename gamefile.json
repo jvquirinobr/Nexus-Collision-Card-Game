@@ -75,7 +75,11 @@
       },
 
 "draggableTokens": [
-  { "id": "burn", "name": "Queimadura", "image": "https://i.imgur.com/yOp2Y7y.png" }
+  { "id": "burn", "name": "Queimadura", "image": "https://i.imgur.com/yOp2Y7y.png" },
+  { "id": "poison", "name": "Veneno", "image": "https://imgur.com/a/3YNxJoG" },
+  { "id": "paralyse", "name": "Paralisia", "image": "https://imgur.com/a/HjPolQY" },
+  { "id": "bleed", "name": "Sangramento", "image": "https://imgur.com/a/RbnjaVr" },
+  { "id": "frozen", "name": "Congelamento", "image": "https://imgur.com/a/CbRvQ0k" }
 ],
 
 
