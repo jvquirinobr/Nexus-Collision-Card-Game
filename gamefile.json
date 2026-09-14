@@ -54,9 +54,6 @@
         "drawNewHand": true,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false,
-        "mulliganCount.min / max": {
-          "max": 1
-        }
       },
 
       "newTurn": {
