@@ -63,11 +63,6 @@
 
       "tokens": [],
 
-      "countersStartingValues": [
-        0,
-        "0"
-      ],
-
       "hideFacedDownCards": true,
 
       "sections": {
@@ -139,11 +134,11 @@
         },
 
         "categoriesAlreadyOnBoard": [
-          "Unidade_Especial"
+          "Unidade Especial"
         ],
 
         "autoPlayFromHand": {
-          "Digimon": "Vanguarda",
+          "Unidade": "Vanguarda",
           "Evento": "Stack",
           "Unidade Especial": "Vanguarda",
           "Evento Contínuo": "Zona_de_Eventos"
