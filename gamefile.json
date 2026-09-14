@@ -1,6 +1,7 @@
 {
   "name": "Nexus Collision",
   "menuBackgroundImage": "https://i.pinimg.com/736x/b5/92/94/b5929405156277e491c41a15a6904b4f.jpg",
+
   "defaultRessources": {
     "backgrounds": [
       "https://i.pinimg.com/1200x/50/75/ba/5075ba33427152e84017b91371ebf21e.jpg",
@@ -9,19 +10,22 @@
     ],
     "decksUrl": ""
   },
+
   "customHelp": "",
   "cardRotation": "90",
+
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/refs/heads/main/cards.json",
-    "cardBack": "https://i.pinimg.com/736x/72/4b/f6/724bf6d03df600ae10587f0991eee070.jpg",
+    "cardBack": "https://i.pinimg.com/736x/72/4b/f6/724bf6d03df600ae10587f0991eee070.jpg"
   },
+
   "deckBuilding": {
     "mainFilters": [
       "type",
       "name",
       "universe"
     ],
-     "formats": [
+    "formats": [
       {
         "title": "Standart",
         "gameplay": "Standart",
@@ -29,12 +33,13 @@
       }
     ]
   },
+
   "gameplay": {
     "Standart": {
       "beforeGameStart": {
-        "initialBoardSetup": [{
-      }]
+        "initialBoardSetup": []
       },
+
       "mulligan": {
         "info": "",
         "startingHandSize": "7",
@@ -42,19 +47,24 @@
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
       },
+
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
+
       "defaultNotes": "",
       "tokens": [],
+
       "countersStartingValues": [
         0,
         "0"
       ],
+
       "hideFacedDownCards": true,
+
       "sections": {
         "customSections": [
           "Vanguarda",
@@ -62,116 +72,91 @@
           "Deck_Adicional",
           "Zona_de_Eventos"
         ],
+
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
           "content": [
             {
               "direction": "column",
-              "style": false,
+              "style": {
+                "width": "12%"
+              },
               "content": [
                 {
-                  "section": "Vanguarda",
+                  "section": "Deck_Adicional",
                   "style": {
-                    "width": "50%"
+                    "height": "22vh"
                   }
-                },
-                {
-                  "direction": "row",
-                  "style": false,
-                  "content": [
-                    {
-                      "direction": "row",
-                      "style": {
-                            "justify-content": "start"
-                          },
-                      "content": [
-                        {
-                          "section": "Digi-Egg",
-                          "style": {
-                            "width" : "20vh"
-                          }
-                        },
-                        {
-                          "section": "Hatched",
-                          "style": {
-                            "width" : "40vh",
-                            "justify-content" : "center"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "section": "Tamer",
-                      "optional": {"key": "Tamer Section"},
-                      "style": {
-                        "width" : "40vh",
-                        "marginLeft" : "10vh"
-                      }
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
             },
             {
               "direction": "column",
               "style": {
-                "width": "30vh",
-                "justify-content": "start"
+                "width": "58%"
               },
               "content": [
                 {
-                  "section": "Security",
-                  "style": false
+                  "section": "Vanguarda",
+                  "style": {
+                    "height": "22vh"
+                  }
+                },
+                {
+                  "section": "Retaguarda",
+                  "style": {
+                    "height": "22vh",
+                    "marginTop": "1vh"
+                  }
                 }
-              ],
-              "isSymetricalForOpponents": false
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "20%"
+              },
+              "content": [
+                {
+                  "section": "Zona_de_Eventos",
+                  "style": {
+                    "height": "12vh"
+                  }
+                }
+              ]
             }
           ]
         },
+
         "categoriesAlreadyOnBoard": [
-          "Digi-Egg"
+          "Unidade_Especial"
         ],
+
         "autoPlayFromHand": {
-          "Digimon": "BattleArea",
-          "Option": "Stack",
-          "Digi-Egg": "Hatched",
-          "Tamer" : "Tamer"
+          "Digimon": "Vanguarda",
+          "Evento": "Stack",
+          "Unidade Especial": "Vanguarda",
+          "Evento Contínuo": "Zona_de_Eventos"
         },
+
         "autoPlayFromStack": {
-          "Digi-Egg": "Hatched",
-          "Digimon" : "BattleArea",
-          "Option": "Discard",
-          "Tamer" : "Tamer"
+          "Unidade Especial": "Vanguarda",
+          "Unidade": "Vanguarda",
+          "Evento": "Discard",
+          "Evento Contínuo": "Zona_de_Eventos"
         },
+
         "sectionsDict": {
-          "Security": {
-            "title": "Security",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Security Stack",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "BattleArea": {
-            "title": "BattleArea",
+          "Vanguarda": {
+            "title": "Vanguarda",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Battle Area",
+            "displayedTitle": "Vanguarda",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -179,15 +164,16 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Hatched": {
-            "title": "Hatched",
+
+          "Retaguarda": {
+            "title": "Retaguarda",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "",
+            "displayedTitle": "Retaguarda",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -195,15 +181,16 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Tamer": {
-            "title": "Tamer",
+
+          "Zona_de_Eventos": {
+            "title": "Zona_de_Eventos",
             "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "END",
+            "height": "SMALL",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Tamer",
+            "displayedTitle": "Zona de Eventos",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -211,12 +198,13 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Digi-Egg": {
-            "title": "Digi-Egg",
+
+          "Deck_Adicional": {
+            "title": "Deck_Adicional",
             "isHidden": "yes",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "DECK",
-            "displayedTitle": "Digi-Egg"
+            "displayedTitle": "Deck Adicional"
           }
         }
       }
