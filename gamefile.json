@@ -84,10 +84,7 @@
               },
               "content": [
                 {
-                  "section": "Deck_Adicional",
-                  "style": {
-                    "height": "22vh"
-                  }
+                  "section": "Deck_Adicional"
                 }
               ]
             },
