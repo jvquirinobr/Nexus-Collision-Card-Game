@@ -74,18 +74,9 @@
         "turnOrder": "default"
       },
 
-      "draggableTokens": [
-      {
-        "id": "Queimadura",
-        "name": "Queimadura",
-        "image": "https://imgur.com/a/4bkRvsF"
-      },
-      {
-        "id": "Veneno",
-        "name": "Veneno",
-        "image": "https://imgur.com/a/3YNxJoG"
-      }
-    ],
+"draggableTokens": [
+  { "id": "burn", "name": "Queimadura", "image": "https://i.imgur.com/yOp2Y7y.png" }
+],
 
 
       "defaultNotes": "",
