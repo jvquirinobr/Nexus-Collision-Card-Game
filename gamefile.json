@@ -117,10 +117,7 @@
                 },
 
                 {
-                  "section": "Retaguarda",
-                  "style": {
-                    "marginTop": "1vh"
-                  }
+                  "section": "Retaguarda"
                 }
 
               ]
@@ -186,7 +183,7 @@
           "Retaguarda": {
             "title": "Retaguarda",
             "isHidden": "no",
-            "height": 23,
+            "height": 16,
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": false,
