@@ -31,8 +31,7 @@
     "formats": [
       {
         "title": "Standart",
-        "gameplay": "Standart",
-        "customCategories": []
+        "gameplay": "Standart"
       }
     ]
   },
@@ -53,7 +52,7 @@
         "startingHandSize": "7",
         "drawNewHand": true,
         "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false,
+        "drawNewSelectedCards": false
       },
 
       "newTurn": {
