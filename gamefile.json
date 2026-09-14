@@ -1,0 +1,225 @@
+{
+  "name": "Nexus Collision",
+  "menuBackgroundImage": "https://i.pinimg.com/736x/b5/92/94/b5929405156277e491c41a15a6904b4f.jpg",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://i.pinimg.com/1200x/50/75/ba/5075ba33427152e84017b91371ebf21e.jpg",
+      "https://i.pinimg.com/736x/82/5d/58/825d58f51e4ec0af0ece4f2b693c0233.jpg",
+      "https://i.pinimg.com/736x/b1/7d/11/b17d11847a977bea5649b62b29602308.jpg"
+    ],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": "90",
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/NexusTCG/refs/heads/main/cards.json",
+    "cardBack": "https://i.pinimg.com/736x/72/4b/f6/724bf6d03df600ae10587f0991eee070.jpg",
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "name",
+      "universe"
+    ],
+     "formats": [
+      {
+        "title": "Standart",
+        "gameplay": "Standart",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "Standart": {
+      "beforeGameStart": {
+        "initialBoardSetup": [{
+      }]
+      },
+      "mulligan": {
+        "info": "",
+        "startingHandSize": "7",
+        "drawNewHand": true,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        0,
+        "0"
+      ],
+      "hideFacedDownCards": true,
+      "sections": {
+        "customSections": [
+          "Vanguarda",
+          "Retaguarda",
+          "Deck_Adicional",
+          "Zona_de_Eventos"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "section": "Vanguarda",
+                  "style": {
+                    "width": "50%"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": false,
+                  "content": [
+                    {
+                      "direction": "row",
+                      "style": {
+                            "justify-content": "start"
+                          },
+                      "content": [
+                        {
+                          "section": "Digi-Egg",
+                          "style": {
+                            "width" : "20vh"
+                          }
+                        },
+                        {
+                          "section": "Hatched",
+                          "style": {
+                            "width" : "40vh",
+                            "justify-content" : "center"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "section": "Tamer",
+                      "optional": {"key": "Tamer Section"},
+                      "style": {
+                        "width" : "40vh",
+                        "marginLeft" : "10vh"
+                      }
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "30vh",
+                "justify-content": "start"
+              },
+              "content": [
+                {
+                  "section": "Security",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Digi-Egg"
+        ],
+        "autoPlayFromHand": {
+          "Digimon": "BattleArea",
+          "Option": "Stack",
+          "Digi-Egg": "Hatched",
+          "Tamer" : "Tamer"
+        },
+        "autoPlayFromStack": {
+          "Digi-Egg": "Hatched",
+          "Digimon" : "BattleArea",
+          "Option": "Discard",
+          "Tamer" : "Tamer"
+        },
+        "sectionsDict": {
+          "Security": {
+            "title": "Security",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Security Stack",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "BattleArea": {
+            "title": "BattleArea",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Battle Area",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Hatched": {
+            "title": "Hatched",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Tamer": {
+            "title": "Tamer",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "END",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Tamer",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Digi-Egg": {
+            "title": "Digi-Egg",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Digi-Egg"
+          }
+        }
+      }
+    }
+  }
+}
