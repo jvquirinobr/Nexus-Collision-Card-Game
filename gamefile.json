@@ -44,11 +44,11 @@
       },
 
       "mulligan": {
-        "info": "Escolha as cartas que deseja trocar.",
+        "info": "Quer mulligar?",
         "startingHandSize": 7,
 
         "mulliganCount": {
-          "min": 0,
+          "min": 1,
           "max": 1
         },
 
@@ -59,7 +59,7 @@
           ],
 
           "selectionRange": {
-            "min": 0,
+            "min": 7,
             "max": 7
           },
 
