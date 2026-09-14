@@ -111,15 +111,12 @@
               },
 
               "content": [
-
                 {
                   "section": "Vanguarda"
                 },
-
                 {
                   "section": "Retaguarda"
                 }
-
               ]
             },
 
@@ -132,11 +129,9 @@
               },
 
               "content": [
-
                 {
                   "section": "Zona_de_Eventos"
                 }
-
               ]
             }
 
@@ -166,7 +161,7 @@
           "Vanguarda": {
             "title": "Vanguarda",
             "isHidden": "no",
-            "height": 23,
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -183,8 +178,8 @@
           "Retaguarda": {
             "title": "Retaguarda",
             "isHidden": "no",
-            "height": 16,
-            "alignment": "START",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
@@ -200,7 +195,7 @@
           "Zona_de_Eventos": {
             "title": "Zona_de_Eventos",
             "isHidden": "no",
-            "height": 12,
+            "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -217,7 +212,7 @@
           "Deck_Adicional": {
             "title": "Deck_Adicional",
             "isHidden": "yes",
-            "height": 23,
+            "height": "MEDIUM",
             "alignment": "DECK",
             "displayedTitle": "Deck Adicional"
           }
