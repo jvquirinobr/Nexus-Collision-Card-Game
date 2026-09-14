@@ -52,17 +52,16 @@
         "startingHandSize": "7",
         "drawNewHand": true,
         "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
+        "drawNewSelectedCards": false,
+                "mulliganCount": {
+          "max": 1
+        }
       },
 
       "newTurn": {
         "drawOnStart": false,
-        "sharedTurn": false,
-        "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-
-      "defaultNotes": "",
 
       "tokens": [],
 
@@ -87,7 +86,7 @@
               "direction": "column",
 
               "style": {
-                "width": "10%",
+                "width": "20%",
                 "justify-content": "flex-start"
               },
 
@@ -122,7 +121,7 @@
               "direction": "column",
 
               "style": {
-                "width": "30%",
+                "width": "20%",
                 "justify-content": "flex-start"
               },
 
