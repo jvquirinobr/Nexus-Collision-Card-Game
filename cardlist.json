@@ -12,5 +12,20 @@
     "name": "Itadori Yuji",
     "type": "Unidade",
     "cost": 2
+  },
+
+  "JJK-002": {
+    "id": "JJK-002",
+    "face": {
+      "front": {
+        "name": { "name": "Itadori Yuji" },
+        "type": "Unidade",
+        "cost": 1,
+        "image": "https://i.pinimg.com/736x/84/0f/61/840f61f60b4ed2993c0decb5cf3336c4.jpg"
+      }
+    },
+    "name": "Itadori Yuji",
+    "type": "Unidade",
+    "cost": 1
   }
 }
