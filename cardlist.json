@@ -15,22 +15,3 @@
     }
   }
 },
-
-  "TOKEN-TESTE": {
-    "id": "TOKEN-TESTE",
-    "isToken": true,
-    "name": "Teste",
-    "type": "Unidade",
-    "cost": 0,
-    "universe": "Nexus Original",
-
-    "face": {
-      "front": {
-        "name": "Teste",
-        "type": "Unidade",
-        "cost": 0,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzhUb8jqNiaMPYjzbB3Q1Ipox4CYISAdTLeFNAdSIKIwhhtzh9mtH3L84&s=10"
-      }
-    }
-  }
-}
