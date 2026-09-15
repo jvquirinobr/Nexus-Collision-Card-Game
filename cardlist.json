@@ -1,5 +1,5 @@
 {
-  "DBST-1-001": {
+  "JJK-001": {
     "id": "JJK-001",
     "name": "Itadori Yuji",
     "type": "Unidade",
@@ -7,7 +7,7 @@
     "universe": "Jujutsu Kaisen",
 
     "tokens": [
-      "WOLF-TOKEN"
+      "TOKEN-TESTE"
     ],
 
     "face": {
@@ -20,8 +20,8 @@
     }
   },
 
-  "Teste Token": {
-    "id": "Teste_Token",
+  "TOKEN-TESTE": {
+    "id": "TOKEN-TESTE",
     "isToken": true,
     "name": "Teste",
     "type": "Unidade",
@@ -30,7 +30,7 @@
 
     "face": {
       "front": {
-        "name": "Lobo Invocado",
+        "name": "Teste",
         "type": "Unidade",
         "cost": 0,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzhUb8jqNiaMPYjzbB3Q1Ipox4CYISAdTLeFNAdSIKIwhhtzh9mtH3L84&s=10"
