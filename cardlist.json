@@ -5,11 +5,6 @@
     "type": "Unidade",
     "cost": 2,
     "universe": "Jujutsu Kaisen",
-
-    "tokens": [
-      "TOKEN-TESTE"
-    ],
-
     "face": {
       "front": {
         "name": "Itadori Yuji",
@@ -18,7 +13,8 @@
         "image": "https://i.pinimg.com/736x/ed/77/50/ed77506db75ccf6558cd2b22573c0e10.jpg"
       }
     }
-  },
+  }
+},
 
   "TOKEN-TESTE": {
     "id": "TOKEN-TESTE",
