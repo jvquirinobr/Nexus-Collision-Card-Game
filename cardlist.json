@@ -3,7 +3,7 @@
     "id": "JJK-001",
     "face": {
       "front": {
-        "name": { "name": "Itadori Yuji" },
+        "name": { "name": "Itadori Yuji - Receptáculo de Sukuna" },
         "type": "Unidade",
         "cost": 2,
         "image": "https://i.pinimg.com/736x/ed/77/50/ed77506db75ccf6558cd2b22573c0e10.jpg"
@@ -18,7 +18,7 @@
     "id": "JJK-002",
     "face": {
       "front": {
-        "name": { "name": "Itadori Yuji" },
+        "name": { "name": "Itadori Yuji - Clube de ocultismo" },
         "type": "Unidade",
         "cost": 1,
         "image": "https://i.pinimg.com/736x/84/0f/61/840f61f60b4ed2993c0decb5cf3336c4.jpg"
