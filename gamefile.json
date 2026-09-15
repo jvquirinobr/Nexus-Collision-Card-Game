@@ -4,10 +4,7 @@
   "menuBackgroundImage": "https://i.pinimg.com/736x/b5/92/94/b5929405156277e491c41a15a6904b4f.jpg",
 
   "defaultRessources": {
-    "backgrounds": [
-      "https://i.pinimg.com/1200x/50/75/ba/5075ba33427152e84017b91371ebf21e.jpg",
-      "https://i.pinimg.com/736x/0d/29/21/0d2921f438576fa795dedec4efd4581c.jpg"
-    ],
+    "backgrounds": [],
     "decksUrl": ""
   },
 
