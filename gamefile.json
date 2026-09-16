@@ -9,7 +9,8 @@
   },
 
   "customHelp": "Abaixo está o livro de regras do card game:\n\nhttps://docs.google.com/document/d/1A7FFNsqI-ALPORRPWHUfRdPFhaP3Syn-NsyjnK9h64k/view?usp=sharing",
-  "cardRotation": "90",
+
+  "cardRotation": 90,
 
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/testes/refs/heads/main/cardlist.json",
@@ -35,7 +36,9 @@
     "Standart": {
 
       "beforeGameStart": {
-        "initialBoardSetup": []
+        "boardCategoriesInSideboard": [
+          "Unidade Especial"
+        ]
       },
 
       "mulligan": {
@@ -69,14 +72,33 @@
         "turnOrder": "default"
       },
 
-"draggableTokens": [
-  { "id": "burn", "name": "Queimadura", "image": "https://cdn.uploaded.photo/2026/09/15/Queimadura.th.png" },
-  { "id": "poison", "name": "Veneno", "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.th.png" },
-  { "id": "paralyse", "name": "Paralisia", "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.th.png" },
-  { "id": "bleed", "name": "Sangramento", "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.th.png" },
-  { "id": "frozen", "name": "Congelamento", "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.th.png" }
-],
-
+      "draggableTokens": [
+        {
+          "id": "burn",
+          "name": "Queimadura",
+          "image": "https://cdn.uploaded.photo/2026/09/15/Queimadura.th.png"
+        },
+        {
+          "id": "poison",
+          "name": "Veneno",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.th.png"
+        },
+        {
+          "id": "paralyse",
+          "name": "Paralisia",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.th.png"
+        },
+        {
+          "id": "bleed",
+          "name": "Sangramento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.th.png"
+        },
+        {
+          "id": "frozen",
+          "name": "Congelamento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.th.png"
+        }
+      ],
 
       "defaultNotes": "",
 
@@ -158,10 +180,6 @@
 
           ]
         },
-
-        "categoriesAlreadyOnBoard": [
-          "Unidade Especial"
-        ],
 
         "autoPlayFromHand": {
           "Unidade": "Vanguarda",
