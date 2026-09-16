@@ -34,12 +34,23 @@
 
   "gameplay": {
     "Standart": {
+
       "beforeGameStart": {
-         "boardCategoriesInDeck": ["Unidade Especial"],
-  "boardCardSelection": [
-    { "type": "Unidade Especial", "min": 0, "max": 20, "unselectedDestination": "Deck_Adicional" }
-  ],
-},
+        "boardCategoriesInSideboard": [
+          "Unidade Especial"
+        ],
+
+        "boardCardSelection": [
+          {
+            "category": "Unidade Especial",
+            "min": 0,
+            "max": 20,
+            "unselectedDestination": "ExileHidden"
+          }
+        ],
+
+        "chooseAnotherStartingPlayer": true
+      },
 
       "mulligan": {
         "info": "Quer mulligar?",
