@@ -86,5 +86,244 @@
     "name": "Dedo de Sukuna",
     "type": "Evento",
     "cost": 2
+  },
+  "FMJK-007": {
+  "id": "FMJK-007",
+  "face": {
+   "front": {
+      "name": { "name": "Aoi Todo - Intercâmbio Jujutsu " },
+     "type": "Unidade",
+     "cost": 2,
+     "image": "https://i.pinimg.com/736x/39/f0/93/39f0931eb52f5ef8110e52443b4b97c3.jpg"
+    }
+  },
+  "name": "Aoi Todo - Intercâmbio Jujutsu ",
+  "type": "Unidade",
+  "cost": 2
+  },
+  
+  "FMJK-008": {
+  "id": "FMJK-008",
+  "face": {
+   "front": {
+      "name": { "name": "Aoi Todo -  Boogie Woogie" },
+     "type": "Unidade",
+     "cost": 4,
+     "image": "https://i.pinimg.com/736x/39/20/04/392004da5bb001b53820d46bf91da1a0.jpg"
+    }
+  },
+  "name": "Aoi Todo -  Boogie Woogie",
+  "type": "Unidade",
+  "cost": 4
+  },
+
+    "FMJK-009": {
+  "id": "FMJK-009",
+  "face": {
+   "front": {
+      "name": { "name": "Aoi Todo - Incidente em Shibuya" },
+     "type": "Unidade",
+     "cost": 4,
+     "image": "https://i.pinimg.com/736x/73/5e/3a/735e3a937112496645bff4ba75880448.jpg"
+    }
+  },
+  "name": "Aoi Todo - Incidente em Shibuya",
+  "type": "Unidade",
+  "cost": 4
+  },
+
+  "FMJK-010": {
+  "id": "FMJK-010",
+  "face": {
+   "front": {
+      "name": { "name": "Nobara Kugisaki - Incidente em Shibuya" },
+     "type": "Unidade",
+     "cost": 1,
+     "image": "https://i.pinimg.com/736x/e5/9a/d8/e59ad87236d3daab3f338eefb951dc13.jpg"
+    }
+  },
+  "name": "Nobara Kugisaki - Incidente em Shibuya",
+  "type": "Unidade",
+  "cost": 1
+  },
+
+  "FMJK-011": {
+  "id": "FMJK-011",
+  "face": {
+   "front": {
+      "name": { "name": "Nobara Kugisaki - Ressonância" },
+     "type": "Unidade",
+     "cost": 2,
+     "image": "https://i.pinimg.com/736x/9f/f4/5e/9ff45e9ddaaeb76014ad1da610f6aff4.jpg"
+    }
+  },
+  "name": "Nobara Kugisaki - Ressonância",
+  "type": "Unidade",
+  "cost": 2
+  },
+
+   "FMJK-012": {
+  "id": "FMJK-012",
+  "face": {
+   "front": {
+      "name": { "name": "Nobara Kugisaki - Missão de alto nível" },
+     "type": "Unidade",
+     "cost": 2,
+     "image": "https://i.pinimg.com/736x/cc/f4/fd/ccf4fd46d36429be56b9d30fdbbfa522.jpg"
+    }
+  },
+  "name": "Nobara Kugisaki - Missão de alto nível",
+  "type": "Unidade",
+  "cost": 2
+  },
+
+   "FMJK-013": {
+  "id": "FMJK-013",
+  "face": {
+   "front": {
+      "name": { "name": "Cão Divino Preto" },
+     "type": "Unidade",
+     "cost": 1,
+     "image": "https://i.pinimg.com/736x/13/8a/c9/138ac938e82ef32b5e1d7285e2064f2b.jpg"
+    }
+  },
+  "name": "Cão Divino Preto",
+  "type": "Unidade",
+  "cost": 1
+  },
+
+   "FMJK-014": {
+  "id": "FMJK-014",
+  "face": {
+   "front": {
+      "name": { "name": "Cão Divino Branco" },
+     "type": "Unidade",
+     "cost": 1,
+     "image": "https://i.pinimg.com/736x/38/09/a3/3809a33b6bb0cbed90aced4beb5f168a.jpg"
+    }
+  },
+  "name": "Cão Divino Branco",
+  "type": "Unidade",
+  "cost": 1
+  },
+
+   "FMJK-015": {
+  "id": "FMJK-015",
+  "face": {
+   "front": {
+      "name": { "name": "Nue - Shikigami alado" },
+     "type": "Unidade",
+     "cost": 3,
+     "image": "https://i.pinimg.com/736x/a0/dd/ba/a0ddba4efb3af94525044452e2fce810.jpg"
+    }
+  },
+  "name": "Nue - Shikigami alado",
+  "type": "Unidade",
+  "cost": 3
+  },
+
+   "FMJK-016": {
+  "id": "FMJK-016",
+  "face": {
+   "front": {
+      "name": { "name": "Megumi Fushiguro - Invocador de sombras" },
+     "type": "Unidade",
+     "cost": 2,
+     "image": "https://i.pinimg.com/736x/f5/70/80/f570800cd2bb4b5e7f4a7c87957d9f6b.jpg"
+    }
+  },
+  "name": "Megumi Fushiguro - Invocador de sombras",
+  "type": "Unidade",
+  "cost": 2
+  },
+
+   "FMJK-017": {
+  "id": "FMJK-017",
+  "face": {
+   "front": {
+      "name": { "name": "Megumi Fushiguro - Intercâmbio Jujutsu" },
+     "type": "Unidade",
+     "cost": 1,
+     "image": "https://i.pinimg.com/736x/60/ab/fe/60abfe3261478c4dce8080941d9a9fc8.jpg"
+    }
+  },
+  "name": "Megumi Fushiguro - Intercâmbio Jujutsu",
+  "type": "Unidade",
+  "cost": 1
+  },
+  
+  "FMJK-018": {
+  "id": "FMJK-018",
+  "face": {
+   "front": {
+      "name": { "name": "Megumi Fushiguro - Usuário das Dez Sombras" },
+     "type": "Unidade",
+     "cost": 1,
+     "image": "https://i.pinimg.com/736x/ab/6a/9a/ab6a9a981fa650ee0f70964c0bf831ac.jpg"
+    }
+  },
+  "name": "Megumi Fushiguro - Usuário das Dez Sombras",
+  "type": "Unidade",
+  "cost": 1
+  },
+
+  "FMJK-019": {
+  "id": "FMJK-019",
+  "face": {
+   "front": {
+      "name": { "name": "Megumi Fushiguro - Rodeado de sombras" },
+     "type": "Unidade",
+     "cost": 3,
+     "image": "https://i.pinimg.com/736x/c2/24/8e/c2248ec857bd80f165caa34d65ec9a19.jpg"
+    }
+  },
+  "name": "Megumi Fushiguro - Rodeado de sombras",
+  "type": "Unidade",
+  "cost": 3
+  },
+
+"FMJK-020": {
+  "id": "FMJK-020",
+  "face": {
+   "front": {
+      "name": { "name": "Megumi Fushiguro - Xamã sombrio" },
+     "type": "Unidade",
+     "cost": 3,
+     "image": "https://i.pinimg.com/736x/82/d9/11/82d911d95f825b66d57b6c0afee125da.jpg"
+    }
+  },
+  "name": "Megumi Fushiguro - Xamã sombrio",
+  "type": "Unidade",
+  "cost": 3
+  },
+
+  "FMJK-021": {
+  "id": "FMJK-021",
+  "face": {
+   "front": {
+      "name": { "name": "Megumi Fushiguro - Sacrífico para vencer" },
+     "type": "Unidade",
+     "cost": 6,
+     "image": "https://i.pinimg.com/736x/72/4d/61/724d61ba39e5f1a1298b3b9f43e84397.jpg"
+    }
+  },
+  "name": "Megumi Fushiguro - Sacrífico para vencer",
+  "type": "Unidade",
+  "cost": 6
+  },
+
+  "FMJK-022": {
+  "id": "FMJK-022",
+  "face": {
+   "front": {
+      "name": { "name": "Cão Divino Totalidade" },
+     "type": "Unidade Especial",
+     "cost": "X",
+     "image": "https://i.pinimg.com/736x/cf/7a/2e/cf7a2e15742c5c89f128168e665c4f62.jpg"
+    }
+  },
+  "name": "Cão Divino Totalidade",
+  "type": "Unidade Especial",
+  "cost": "X"
   }
 }
