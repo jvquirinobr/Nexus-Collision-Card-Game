@@ -1,6 +1,6 @@
 {
-  "JJK-001": {
-    "id": "JJK-001",
+  "FMJK-001": {
+    "id": "FMJK-001",
     "face": {
       "front": {
         "name": { "name": "Itadori Yuji - Receptáculo de Sukuna" },
@@ -14,8 +14,8 @@
     "cost": 2
   },
 
-  "JJK-002": {
-    "id": "JJK-002",
+  "FMJK-002": {
+    "id": "FMJK-002",
     "face": {
       "front": {
         "name": { "name": "Itadori Yuji - Clube de ocultismo" },
@@ -27,5 +27,64 @@
     "name": "Itadori Yuji - Clube de ocultismo",
     "type": "Unidade",
     "cost": 1
+  },
+
+    "FMJK-003": {
+    "id": "FMJK-003",
+    "face": {
+      "front": {
+        "name": { "name": "Itadori Yuji - Punhos Divergentes" },
+        "type": "Unidade",
+        "cost": 2,
+        "image": "https://i.pinimg.com/736x/4b/f5/0c/4bf50c045a7cfefa160ed9f4a2bbea1a.jpg"
+      }
+    },
+    "name": "Itadori Yuji - Punhos Divergentes",
+    "type": "Unidade",
+    "cost": 2
+  },
+
+    "FMJK-004": {
+    "id": "FMJK-004",
+    "face": {
+      "front": {
+        "name": { "name": "Itadori Yuji - Incidente em Shibuya" },
+        "type": "Unidade",
+        "cost": 3,
+        "image": "https://i.pinimg.com/736x/4a/fa/cd/4afacdd9b44883b74bf7084b275ff559.jpg"
+      }
+    },
+    "name": "Itadori Yuji - Incidente em Shibuya",
+    "type": "Unidade",
+    "cost": 3
+  },
+
+    "FMJK-005": {
+    "id": "FMJK-005",
+    "face": {
+      "front": {
+        "name": { "name": "Itadori Yuji - Somos iguais" },
+        "type": "Unidade",
+        "cost": 7,
+        "image": "https://i.pinimg.com/736x/96/c0/48/96c048690c208572fa0b928aa06751e9.jpg"
+      }
+    },
+    "name": "Itadori Yuji - Somos iguais",
+    "type": "Unidade",
+    "cost": 7
+  },
+    "FMJK-006": {
+    "id": "FMJK-006",
+    "face": {
+      "front": {
+        "name": { "name": "Dedo de Sukuna" },
+        "type": "Evento",
+        "cost": 2,
+        "image": "https://i.pinimg.com/736x/ae/21/46/ae2146504a9da03184fdda814ccafecc.jpg"
+      }
+    },
+    "name": "Dedo de Sukuna",
+    "type": "Evento",
+    "cost": 2
   }
 }
