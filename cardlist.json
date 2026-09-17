@@ -314,9 +314,6 @@
 
 "FMJK-022": {
   "id": "FMJK-022",
-  "categories": [
-    "Deck_Adicional"
-  ],
   "face": {
     "front": {
       "name": {
@@ -330,5 +327,5 @@
   "name": "Cão Divino Totalidade",
   "type": "Unidade Especial",
   "cost": "X"
-}
+ }
 }
