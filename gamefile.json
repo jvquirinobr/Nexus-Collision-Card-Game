@@ -27,7 +27,9 @@
       {
         "title": "Standart",
         "gameplay": "Standart",
-        "customCategories": []
+        "customCategories": [
+          "Unidade Especial"
+        ]
       }
     ]
   },
@@ -110,13 +112,17 @@
         "customSections": [
           "Vanguarda",
           "Retaguarda",
-          "Unidade Especial",
+          "Deck_Adicional",
           "Zona_de_Eventos"
         ],
 
         "categoriesAlreadyOnBoard": [
           "Unidade Especial"
         ],
+
+        "boardCategoriesInDeck": {
+          "Unidade Especial": "Deck_Adicional"
+        },
 
         "layout": {
           "direction": "row",
@@ -134,7 +140,7 @@
 
               "content": [
                 {
-                  "section": "Unidade Especial",
+                  "section": "Deck_Adicional",
                   "style": {
                     "width": "9vh"
                   }
@@ -246,8 +252,8 @@
             "showHiddenCardInHistory": false
           },
 
-          "Unidade Especial": {
-            "title": "Unidade Especial",
+          "Deck_Adicional": {
+            "title": "Deck_Adicional",
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
