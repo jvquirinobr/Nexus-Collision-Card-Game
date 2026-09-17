@@ -34,10 +34,6 @@
     "Standart": {
 
       "beforeGameStart": {
-        "boardCategoriesInSideboard": ["Unidade Especial"],
-  "boardCardSelection": [
-    { "category": "Unidade Especial", "min": 0, "max": 20, "unselectedDestination": "Deck_Adicional" }
-  ],
   "chooseAnotherStartingPlayer": true
 },
 
