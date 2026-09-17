@@ -19,7 +19,7 @@
   "deckBuilding": {
     "mainFilters": [
       "type",
-      "name",
+      "name"
     ],
 
     "formats": [
