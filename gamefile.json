@@ -40,12 +40,6 @@
       "beforeGameStart": {
 
         "beforeGameStart": {
-  "boardCategoriesInSideboard": [ "Unidade Especial" ],
-  "boardCardSelection": [
-    { "category": "Unidade Especial", "min": 0, "max": 15, "destination": "Vanguarda" }
-  ]
-},
-
         "chooseAnotherStartingPlayer": true
       },
 
