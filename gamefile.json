@@ -10,7 +10,7 @@
 
   "customHelp": "Abaixo está o livro de regras do card game:\n\nhttps://docs.google.com/document/d/1A7FFNsqI-ALPORRPWHUfRdPFhaP3Syn-NsyjnK9h64k/view?usp=sharing",
 
-  "cardRotation": 90,
+  "cardRotation": "90",
 
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/testes/refs/heads/main/cardlist.json",
@@ -26,7 +26,10 @@
     "formats": [
       {
         "title": "Standart",
-        "gameplay": "Standart"
+        "gameplay": "Standart",
+        "customCategories": [
+          "Deck_Adicional"
+        ]
       }
     ]
   },
@@ -35,6 +38,14 @@
     "Standart": {
 
       "beforeGameStart": {
+
+        "beforeGameStart": {
+  "boardCategoriesInSideboard": [ "Unidade Especial" ],
+  "boardCardSelection": [
+    { "category": "Unidade Especial", "min": 0, "max": 15, "destination": "Vanguarda" }
+  ]
+},
+
         "chooseAnotherStartingPlayer": true
       },
 
@@ -99,17 +110,24 @@
 
       "countersStartingValues": [
         0,
-        0
+        "0"
       ],
 
       "hideFacedDownCards": true,
 
       "sections": {
 
+        "customSections": [
+          "Vanguarda",
+          "Retaguarda",
+          "Deck_Adicional",
+          "Zona_de_Eventos"
+        ],
+
         "layout": {
           "direction": "row",
 
-          "isSymmetricalForOpponents": false,
+          "isSymetricalForOpponents": false,
 
           "content": [
             {
@@ -161,15 +179,6 @@
                   "section": "Zona_de_Eventos"
                 }
               ]
-            },
-
-            {
-              "section": "DeckSetupLogic",
-              "style": {
-                "display": "none",
-                "width": "0",
-                "height": "0"
-              }
             }
           ]
         },
@@ -191,6 +200,7 @@
         "sectionsDict": {
 
           "Vanguarda": {
+            "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -200,12 +210,14 @@
             "displayedTitle": "Vanguarda",
             "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
 
           "Retaguarda": {
+            "title": "Retaguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -215,12 +227,14 @@
             "displayedTitle": "Retaguarda",
             "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
 
           "Zona_de_Eventos": {
+            "title": "Zona_de_Eventos",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -230,28 +244,18 @@
             "displayedTitle": "Zona de Eventos",
             "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
 
           "Deck_Adicional": {
+            "title": "Deck_Adicional",
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
             "displayedTitle": "Deck Adicional"
-          },
-
-          "DeckSetupLogic": {
-            "type": "custom",
-            "defaultValue": {},
-            "blueprint": {
-              "type": "div",
-              "children": []
-            },
-            "events": {
-              "onPlayersDeckPicked": "const specialUnits = (cards.Deck ?? []).filter(card => functions.getCardData(card)?.type === \"Unidade Especial\"); if (specialUnits.length > 0) { await functions.moveCards(specialUnits, \"Deck_Adicional\", { \"noLogs\": true }); }"
-            }
           }
         }
       }
