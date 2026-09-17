@@ -38,18 +38,12 @@
     "Standart": {
 
       "beforeGameStart": {
-        "boardCategoriesInSideboard": [
-          "Unidade Especial"
-        ],
 
-        "boardCardSelection": [
-          {
-            "category": "Unidade Especial",
-            "min": 0,
-            "max": 0,
-            "unselectedDestination": "Deck_Adicional"
-          }
-        ],
+        "beforeGameStart": {
+  "initialBoardSetup": [
+    { "drawFromTop": "Deck","type": "Unidade Especial", "count": 99, "destination": "Deck_Adicional" }
+  ]
+},
 
         "chooseAnotherStartingPlayer": true
       },
