@@ -23,29 +23,17 @@
       "name",
       "universe"
     ],
-    "sideDeckCategories": [
-      "Unidade Especial"
-    ],
     "formats": [
       {
         "title": "Standart",
-        "gameplay": "Standart"
+        "gameplay": "Standart",
+        "customCategories": []
       }
     ]
   },
 
   "gameplay": {
     "Standart": {
-
-      "beforeGameStart": {
-        "autoMoveCards": [
-          {
-            "category": "Unidade Especial",
-            "destination": "Deck_Adicional"
-          }
-        ],
-        "chooseAnotherStartingPlayer": true
-      },
 
       "mulligan": {
         "info": "Quer mulligar?",
@@ -122,8 +110,12 @@
         "customSections": [
           "Vanguarda",
           "Retaguarda",
-          "Deck_Adicional",
+          "Unidade Especial",
           "Zona_de_Eventos"
+        ],
+
+        "categoriesAlreadyOnBoard": [
+          "Unidade Especial"
         ],
 
         "layout": {
@@ -142,7 +134,7 @@
 
               "content": [
                 {
-                  "section": "Deck_Adicional",
+                  "section": "Unidade Especial",
                   "style": {
                     "width": "9vh"
                   }
@@ -254,8 +246,8 @@
             "showHiddenCardInHistory": false
           },
 
-          "Deck_Adicional": {
-            "title": "Deck_Adicional",
+          "Unidade Especial": {
+            "title": "Unidade Especial",
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
