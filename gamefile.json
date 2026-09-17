@@ -36,7 +36,7 @@
     "Standart": {
 
       "beforeGameStart": {
-      "boardCategoriesInSideboard": ["Unidade Especial"],
+      "boardCategoriesInDeck": ["Unidade Especial"],
       "boardCardSelection": [
         {
           "type": "Unidade Especial",
