@@ -196,6 +196,10 @@
           "Evento Contínuo": "Zona_de_Eventos"
         },
 
+          "autoPlayFromDeck": {
+          "Unidade Especial": "Deck_Adicional"
+        },
+
         "sectionsDict": {
 
           "Vanguarda": {
