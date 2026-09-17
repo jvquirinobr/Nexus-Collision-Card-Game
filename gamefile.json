@@ -1,51 +1,225 @@
-"layout": {
-  "direction": "row",
+{
+  "name": "Nexus Collision",
 
-  "isSymetricalForOpponents": false,
+  "menuBackgroundImage": "https://i.pinimg.com/736x/b5/92/94/b5929405156277e491c41a15a6904b4f.jpg",
 
-  "content": [
-    {
-      "direction": "column",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
 
-      "style": {
-        "width": "0%",
-        "justify-content": "flex-start"
+  "customHelp": "Abaixo está o livro de regras do card game:\n\nhttps://docs.google.com/document/d/1A7FFNsqI-ALPORRPWHUfRdPFhaP3Syn-NsyjnK9h64k/view?usp=sharing",
+
+  "cardRotation": 90,
+
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/testes/refs/heads/main/cardlist.json",
+    "cardBack": "https://i.pinimg.com/736x/72/4b/f6/724bf6d03df600ae10587f0991eee070.jpg"
+  },
+
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "name"
+    ],
+
+    "formats": [
+      {
+        "title": "Standart",
+        "gameplay": "Standart"
+      }
+    ]
+  },
+
+  "gameplay": {
+    "Standart": {
+
+      "beforeGameStart": {
+        "chooseAnotherStartingPlayer": true
       },
 
-      "content": []
-    },
+      "mulligan": {
+        "startingHandSize": 7,
 
-    {
-      "direction": "column",
+        "mulliganCount": {
+          "min": 0,
+          "max": 1
+        },
 
-      "style": {
-        "width": "80%",
-        "align-items": "center"
+        "mulliganCycle": {
+          "info": "Quer mulligar?",
+
+          "steps": [
+            "toBottom",
+            "draw"
+          ],
+
+          "selectionRange": {
+            "min": 7,
+            "max": 7
+          },
+
+          "keepCardsOrder": false
+        }
       },
 
-      "content": [
+      "newTurn": {
+        "drawOnStart": false,
+        "drawPerTurn": 1,
+        "sharedTurn": false,
+        "turnOrder": "default"
+      },
+
+      "draggableTokens": [
         {
-          "section": "Vanguarda"
+          "id": "burn",
+          "name": "Queimadura",
+          "image": "https://cdn.uploaded.photo/2026/09/15/Queimadura.th.png"
         },
         {
-          "section": "Retaguarda"
-        }
-      ]
-    },
-
-    {
-      "direction": "column",
-
-      "style": {
-        "width": "20%",
-        "justify-content": "flex-start"
-      },
-
-      "content": [
+          "id": "poison",
+          "name": "Veneno",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.th.png"
+        },
         {
-          "section": "Zona_de_Eventos"
+          "id": "paralyse",
+          "name": "Paralisia",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.th.png"
+        },
+        {
+          "id": "bleed",
+          "name": "Sangramento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.th.png"
         }
-      ]
+      ],
+
+      "defaultNotes": "",
+
+      "tokens": [],
+
+      "countersStartingValues": [
+        0,
+        0
+      ],
+
+      "hideFacedDownCards": true,
+
+      "sections": {
+
+        "layout": {
+          "direction": "row",
+
+          "isSymetricalForOpponents": false,
+
+          "content": [
+            {
+              "direction": "column",
+
+              "style": {
+                "width": "0%",
+                "justify-content": "flex-start"
+              },
+
+              "content": []
+            },
+
+            {
+              "direction": "column",
+
+              "style": {
+                "width": "80%",
+                "align-items": "center"
+              },
+
+              "content": [
+                {
+                  "section": "Vanguarda"
+                },
+                {
+                  "section": "Retaguarda"
+                }
+              ]
+            },
+
+            {
+              "direction": "column",
+
+              "style": {
+                "width": "20%",
+                "justify-content": "flex-start"
+              },
+
+              "content": [
+                {
+                  "section": "Zona_de_Eventos"
+                }
+              ]
+            }
+          ]
+        },
+
+        "autoPlayFromHand": {
+          "Unidade": "Vanguarda",
+          "Unidade Especial": "Vanguarda",
+          "Evento": "Stack",
+          "Evento Contínuo": "Zona_de_Eventos"
+        },
+
+        "autoPlayFromStack": {
+          "Unidade Especial": "Vanguarda",
+          "Unidade": "Vanguarda",
+          "Evento": "Discard",
+          "Evento Contínuo": "Zona_de_Eventos"
+        },
+
+        "sectionsDict": {
+
+          "Vanguarda": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Vanguarda",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+
+          "Retaguarda": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Retaguarda",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+
+          "Zona_de_Eventos": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Zona de Eventos",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
     }
-  ]
+  }
 }
