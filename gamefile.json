@@ -10,7 +10,7 @@
 
   "customHelp": "Abaixo está o livro de regras do card game:\n\nhttps://docs.google.com/document/d/1A7FFNsqI-ALPORRPWHUfRdPFhaP3Syn-NsyjnK9h64k/view?usp=sharing",
 
-  "cardRotation": 90,
+  "cardRotation": "90",
 
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/testes/refs/heads/main/cardlist.json",
@@ -39,6 +39,8 @@
       },
 
       "mulligan": {
+        "info": "Quer mulligar?",
+
         "startingHandSize": 7,
 
         "mulliganCount": {
@@ -47,8 +49,6 @@
         },
 
         "mulliganCycle": {
-          "info": "Quer mulligar?",
-
           "steps": [
             "toBottom",
             "draw"
@@ -99,12 +99,18 @@
 
       "countersStartingValues": [
         0,
-        0
+        "0"
       ],
 
       "hideFacedDownCards": true,
 
       "sections": {
+
+        "customSections": [
+          "Vanguarda",
+          "Retaguarda",
+          "Zona_de_Eventos"
+        ],
 
         "layout": {
           "direction": "row",
@@ -175,6 +181,7 @@
         "sectionsDict": {
 
           "Vanguarda": {
+            "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -184,12 +191,14 @@
             "displayedTitle": "Vanguarda",
             "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
 
           "Retaguarda": {
+            "title": "Retaguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -199,12 +208,14 @@
             "displayedTitle": "Retaguarda",
             "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
 
           "Zona_de_Eventos": {
+            "title": "Zona_de_Eventos",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -214,6 +225,7 @@
             "displayedTitle": "Zona de Eventos",
             "noQuickActions": false,
             "enterTapped": false,
+            "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
