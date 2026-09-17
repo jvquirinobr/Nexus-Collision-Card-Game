@@ -26,7 +26,10 @@
     "formats": [
       {
         "title": "Standart",
-        "gameplay": "Standart"
+        "gameplay": "Standart",
+        "customCategories": [
+          "Deck_Adicional"
+        ]
       }
     ]
   },
@@ -35,6 +38,8 @@
     "Standart": {
 
       "beforeGameStart": {
+
+        "beforeGameStart": {
         "chooseAnotherStartingPlayer": true
       },
 
@@ -109,6 +114,7 @@
         "customSections": [
           "Vanguarda",
           "Retaguarda",
+          "Deck_Adicional",
           "Zona_de_Eventos"
         ],
 
@@ -126,7 +132,14 @@
                 "justify-content": "flex-start"
               },
 
-              "content": []
+              "content": [
+                {
+                  "section": "Deck_Adicional",
+                  "style": {
+                    "width": "9vh"
+                  }
+                }
+              ]
             },
 
             {
@@ -229,6 +242,14 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+
+          "Deck_Adicional": {
+            "title": "Deck_Adicional",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Deck Adicional"
           }
         }
       }
