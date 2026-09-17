@@ -35,192 +35,200 @@
     "Standart": {
 
       "beforeGameStart": {
+        "chooseAnotherStartingPlayer": true
+      },
 
-        "beforeGameStart": {
-          "chooseAnotherStartingPlayer": true
+      "mulligan": {
+        "info": "Quer mulligar?",
+
+        "startingHandSize": 7,
+
+        "mulliganCount": {
+          "min": 0,
+          "max": 1
         },
 
-        "mulligan": {
-          "info": "Quer mulligar?",
-
-          "startingHandSize": 7,
-
-          "mulliganCount": {
-            "min": 0,
-            "max": 1
-          },
-
-          "mulliganCycle": {
-            "steps": [
-              "toBottom",
-              "draw"
-            ],
-
-            "selectionRange": {
-              "min": 7,
-              "max": 7
-            },
-
-            "keepCardsOrder": false
-          }
-        },
-
-        "newTurn": {
-          "drawOnStart": false,
-          "drawPerTurn": 1,
-          "sharedTurn": false,
-          "turnOrder": "default"
-        },
-
-        "draggableTokens": [
-          {
-            "id": "burn",
-            "name": "Queimadura",
-            "image": "https://cdn.uploaded.photo/2026/09/15/Queimadura.th.png"
-          },
-          {
-            "id": "poison",
-            "name": "Veneno",
-            "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.th.png"
-          },
-          {
-            "id": "paralyse",
-            "name": "Paralisia",
-            "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.th.png"
-          },
-          {
-            "id": "bleed",
-            "name": "Sangramento",
-            "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.th.png"
-          }
-        ],
-
-        "defaultNotes": "",
-
-        "tokens": [],
-
-        "countersStartingValues": [
-          0,
-          "0"
-        ],
-
-        "hideFacedDownCards": true,
-
-        "sections": {
-
-          "customSections": [
-            "Vanguarda",
-            "Retaguarda",
-            "Zona_de_Eventos"
+        "mulliganCycle": {
+          "steps": [
+            "toBottom",
+            "draw"
           ],
 
-          "layout": {
-            "direction": "row",
+          "selectionRange": {
+            "min": 7,
+            "max": 7
+          },
 
-            "isSymetricalForOpponents": false,
+          "keepCardsOrder": false
+        }
+      },
 
-            "content": [
-              {
-                "direction": "column",
+      "newTurn": {
+        "drawOnStart": false,
+        "drawPerTurn": 1,
+        "sharedTurn": false,
+        "turnOrder": "default"
+      },
 
-                "style": {
-                  "width": "60%",
-                  "align-items": "center"
-                },
+      "draggableTokens": [
+        {
+          "id": "burn",
+          "name": "Queimadura",
+          "image": "https://cdn.uploaded.photo/2026/09/15/Queimadura.th.png"
+        },
+        {
+          "id": "poison",
+          "name": "Veneno",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.th.png"
+        },
+        {
+          "id": "paralyse",
+          "name": "Paralisia",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.th.png"
+        },
+        {
+          "id": "bleed",
+          "name": "Sangramento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.th.png"
+        }
+      ],
 
-                "content": [
-                  {
-                    "section": "Vanguarda"
-                  },
-                  {
-                    "section": "Retaguarda"
-                  }
-                ]
+      "defaultNotes": "",
+
+      "tokens": [],
+
+      "countersStartingValues": [
+        0,
+        "0"
+      ],
+
+      "hideFacedDownCards": true,
+
+      "sections": {
+
+        "customSections": [
+          "Vanguarda",
+          "Retaguarda",
+          "Zona_de_Eventos"
+        ],
+
+        "layout": {
+          "direction": "row",
+
+          "isSymetricalForOpponents": false,
+
+          "content": [
+            {
+              "direction": "column",
+
+              "style": {
+                "width": "20%",
+                "justify-content": "flex-start"
               },
 
-              {
-                "direction": "column",
+              "content": []
+            },
 
-                "style": {
-                  "width": "20%",
-                  "justify-content": "flex-start"
+            {
+              "direction": "column",
+
+              "style": {
+                "width": "60%",
+                "align-items": "center"
+              },
+
+              "content": [
+                {
+                  "section": "Vanguarda"
                 },
-
-                "content": [
-                  {
-                    "section": "Zona_de_Eventos"
-                  }
-                ]
-              }
-            ]
-          },
-
-          "autoPlayFromHand": {
-            "Unidade": "Vanguarda",
-            "Evento": "Stack",
-            "Unidade Especial": "Vanguarda",
-            "Evento Contínuo": "Zona_de_Eventos"
-          },
-
-          "autoPlayFromStack": {
-            "Unidade Especial": "Vanguarda",
-            "Unidade": "Vanguarda",
-            "Evento": "Discard",
-            "Evento Contínuo": "Zona_de_Eventos"
-          },
-
-          "sectionsDict": {
-
-            "Vanguarda": {
-              "title": "Vanguarda",
-              "isHidden": "no",
-              "height": "MEDIUM",
-              "alignment": "CENTER",
-              "opponentAlignment": false,
-              "noAutoPayTo": false,
-              "isHorizontalAllowed": true,
-              "displayedTitle": "Vanguarda",
-              "noQuickActions": false,
-              "enterTapped": false,
-              "enterSpun": false,
-              "isGroupForbidden": false,
-              "keepTappedNewTurn": false,
-              "showHiddenCardInHistory": false
+                {
+                  "section": "Retaguarda"
+                }
+              ]
             },
 
-            "Retaguarda": {
-              "title": "Retaguarda",
-              "isHidden": "no",
-              "height": "MEDIUM",
-              "alignment": "CENTER",
-              "opponentAlignment": false,
-              "noAutoPayTo": false,
-              "isHorizontalAllowed": true,
-              "displayedTitle": "Retaguarda",
-              "noQuickActions": false,
-              "enterTapped": false,
-              "enterSpun": false,
-              "isGroupForbidden": false,
-              "keepTappedNewTurn": false,
-              "showHiddenCardInHistory": false
-            },
+            {
+              "direction": "column",
 
-            "Zona_de_Eventos": {
-              "title": "Zona_de_Eventos",
-              "isHidden": "no",
-              "height": "MEDIUM",
-              "alignment": "CENTER",
-              "opponentAlignment": false,
-              "noAutoPayTo": false,
-              "isHorizontalAllowed": true,
-              "displayedTitle": "Zona de Eventos",
-              "noQuickActions": false,
-              "enterTapped": false,
-              "enterSpun": false,
-              "isGroupForbidden": false,
-              "keepTappedNewTurn": false,
-              "showHiddenCardInHistory": false
+              "style": {
+                "width": "20%",
+                "justify-content": "flex-start"
+              },
+
+              "content": [
+                {
+                  "section": "Zona_de_Eventos"
+                }
+              ]
             }
+          ]
+        },
+
+        "autoPlayFromHand": {
+          "Unidade": "Vanguarda",
+          "Evento": "Stack",
+          "Unidade Especial": "Vanguarda",
+          "Evento Contínuo": "Zona_de_Eventos"
+        },
+
+        "autoPlayFromStack": {
+          "Unidade Especial": "Vanguarda",
+          "Unidade": "Vanguarda",
+          "Evento": "Discard",
+          "Evento Contínuo": "Zona_de_Eventos"
+        },
+
+        "sectionsDict": {
+
+          "Vanguarda": {
+            "title": "Vanguarda",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Vanguarda",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+
+          "Retaguarda": {
+            "title": "Retaguarda",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Retaguarda",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+
+          "Zona_de_Eventos": {
+            "title": "Zona_de_Eventos",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Zona de Eventos",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         }
       }
