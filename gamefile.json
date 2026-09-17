@@ -38,14 +38,16 @@
     "Standart": {
 
       "beforeGameStart": {
+        "chooseAnotherStartingPlayer": true,
+
         "boardCategoriesInSideboard": [
-          "Deck_Adicional"
-        ],
-        "chooseAnotherStartingPlayer": true
+          "Unidade Especial"
+        ]
       },
 
       "mulligan": {
         "info": "Quer mulligar?",
+
         "startingHandSize": 7,
 
         "mulliganCount": {
@@ -120,6 +122,7 @@
 
         "layout": {
           "direction": "row",
+
           "isSymetricalForOpponents": false,
 
           "content": [
@@ -177,10 +180,6 @@
 
           ]
         },
-
-        "categoriesAlreadyOnBoard": [
-          "Deck_Adicional"
-        ],
 
         "autoPlayFromHand": {
           "Unidade": "Vanguarda",
@@ -251,11 +250,10 @@
 
           "Deck_Adicional": {
             "title": "Deck_Adicional",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
-            "displayedTitle": "Deck Adicional",
-            "noQuickActions": false
+            "displayedTitle": "Deck Adicional"
           }
 
         }
