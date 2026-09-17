@@ -20,7 +20,6 @@
     "mainFilters": [
       "type",
       "name",
-      "universe"
     ],
 
     "formats": [
@@ -158,9 +157,6 @@
 
           ]
         },
-
-        "categoriesAlreadyOnBoard": [
-          "Unidade Especial"
         ],
 
         "autoPlayFromHand": {
