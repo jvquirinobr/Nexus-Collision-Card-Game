@@ -41,7 +41,7 @@
 
         "beforeGameStart": {
   "initialBoardSetup": [
-    { "category": "Unidade Especial", "destination": "Deck_Adicional" }
+    { "drawFromTop": "Sideboard", "count": 99, "destination": "Deck_Adicional" }
   ]
 },
 
