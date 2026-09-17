@@ -37,8 +37,11 @@
     "Standart": {
 
       "beforeGameStart": {
-  "chooseAnotherStartingPlayer": true
-},
+        "chooseAnotherStartingPlayer": true,
+        "boardCategoriesInSideboard": [
+          "Deck_Adicional"
+        ]
+      },
 
       "mulligan": {
         "info": "Quer mulligar?",
@@ -71,13 +74,28 @@
         "turnOrder": "default"
       },
 
-"draggableTokens": [
-  { "id": "burn", "name": "Queimadura", "image": "https://cdn.uploaded.photo/2026/09/15/Queimadura.th.png" },
-  { "id": "poison", "name": "Veneno", "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.th.png" },
-  { "id": "paralyse", "name": "Paralisia", "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.th.png" },
-  { "id": "bleed", "name": "Sangramento", "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.th.png" },
-],
-
+      "draggableTokens": [
+        {
+          "id": "burn",
+          "name": "Queimadura",
+          "image": "https://cdn.uploaded.photo/2026/09/15/Queimadura.th.png"
+        },
+        {
+          "id": "poison",
+          "name": "Veneno",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.th.png"
+        },
+        {
+          "id": "paralyse",
+          "name": "Paralisia",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.th.png"
+        },
+        {
+          "id": "bleed",
+          "name": "Sangramento",
+          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.th.png"
+        }
+      ],
 
       "defaultNotes": "",
 
@@ -104,7 +122,6 @@
           "isSymetricalForOpponents": false,
 
           "content": [
-
             {
               "direction": "column",
 
@@ -156,12 +173,13 @@
                 }
               ]
             }
-
           ]
         },
+
         "categoriesAlreadyOnBoard": [
           "Unidade Especial"
         ],
+
         "autoPlayFromHand": {
           "Unidade": "Vanguarda",
           "Evento": "Stack",
