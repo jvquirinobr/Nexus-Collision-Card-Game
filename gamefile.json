@@ -41,7 +41,7 @@
 
         "beforeGameStart": {
   "initialBoardSetup": [
-    { "drawFromTop": "Deck","type": "Unidade Especial", "count": 99, "destination": "Deck_Adicional" }
+    { "type": "Unidade Especial", "destination": "Deck_Adicional" }
   ]
 },
 
@@ -194,10 +194,6 @@
           "Unidade": "Vanguarda",
           "Evento": "Discard",
           "Evento Contínuo": "Zona_de_Eventos"
-        },
-
-          "autoPlayFromDeck": {
-          "Unidade Especial": "Deck_Adicional"
         },
 
         "sectionsDict": {
