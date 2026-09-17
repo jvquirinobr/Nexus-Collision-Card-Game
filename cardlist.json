@@ -312,18 +312,23 @@
   "cost": 6
   },
 
-  "FMJK-022": {
+"FMJK-022": {
   "id": "FMJK-022",
+  "categories": [
+    "Deck_Adicional"
+  ],
   "face": {
-   "front": {
-      "name": { "name": "Cão Divino Totalidade" },
-     "type": "Unidade Especial",
-     "cost": "X",
-     "image": "https://i.pinimg.com/736x/cf/7a/2e/cf7a2e15742c5c89f128168e665c4f62.jpg"
+    "front": {
+      "name": {
+        "name": "Cão Divino Totalidade"
+      },
+      "type": "Unidade Especial",
+      "cost": "X",
+      "image": "https://i.pinimg.com/736x/cf/7a/2e/cf7a2e15742c5c89f128168e665c4f62.jpg"
     }
   },
   "name": "Cão Divino Totalidade",
   "type": "Unidade Especial",
   "cost": "X"
-  }
+}
 }
