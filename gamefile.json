@@ -39,7 +39,7 @@
       "boardCategoriesInDeck": ["Unidade Especial"],
       "boardCardSelection": [
         {
-          "type": "Unidade Especial",
+          "category": "Unidade Especial",
           "min": 0,
           "max": 20,
           "unselectedDestination": "Deck Adicional"
