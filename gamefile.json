@@ -35,17 +35,15 @@
   "gameplay": {
     "Standart": {
 
-      "beforeGameStart": {
-      "boardCategoriesInDeck": ["Unidade Especial"],
-      "boardCardSelection": [
-        {
-          "category": "Unidade Especial",
-          "min": 0,
-          "max": 20,
-          "unselectedDestination": "Deck Adicional"
-        }
-      ],
-      "chooseAnotherStartingPlayer": true
+"beforeGameStart": {
+  "autoMoveCards": [
+    {
+      "category": "Unidade Especial",
+      "destination": "Deck_Adicional"
+    }
+  ],
+  "chooseAnotherStartingPlayer": true
+}
       },
 
       "mulligan": {
