@@ -25,7 +25,10 @@
     "formats": [
       {
         "title": "Standart",
-        "gameplay": "Standart"
+        "gameplay": "Standart",
+        "customCategories": [
+          "Deck_Adicional"
+        ]
       }
     ]
   },
@@ -157,7 +160,9 @@
 
           ]
         },
-
+        "categoriesAlreadyOnBoard": [
+          "Unidade Especial"
+        ],
         "autoPlayFromHand": {
           "Unidade": "Vanguarda",
           "Evento": "Stack",
