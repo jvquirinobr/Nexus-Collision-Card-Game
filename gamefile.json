@@ -38,8 +38,13 @@
 
       "beforeGameStart": {
         "chooseAnotherStartingPlayer": true,
-        "boardCategoriesInSideboard": [
-          "Deck_Adicional"
+
+        "boardCards": [
+          {
+            "category": "Deck_Adicional",
+            "section": "Deck_Adicional",
+            "owner": "self"
+          }
         ]
       },
 
@@ -122,6 +127,7 @@
           "isSymetricalForOpponents": false,
 
           "content": [
+
             {
               "direction": "column",
 
@@ -173,6 +179,7 @@
                 }
               ]
             }
+
           ]
         },
 
