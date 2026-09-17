@@ -8,9 +8,8 @@
     "decksUrl": ""
   },
 
-  "customHelp": "Abaixo está o livro de regras do card game:\n\nhttps://docs.google.com/document/d/1A7FFNsqI-ALPORRPWHUfRdPFhaP3Syn-NsyjnK9h64k/view?usp=sharing",
-
-  "cardRotation": 90,
+  "customHelp": "Como jogar Nexus Collision?\n\n- Ações durante o Turno:\n\n1. Antes de começar qualquer ação, os efeitos \"Início do seu Turno\" são ativados agora.\n2. Após o passo anterior, você deve escolher se quer colocar uma carta na sua retaguarda ou não. Se você quiser colocar, escolha 1 da sua mão e arraste ela para a área de retaguarda.\n3. Depois da segunda etapa você pode fazer diversas ações, você pode invocar unidades, ativar eventos, efeitos e atacar em qualquer ordem.\n4. Após você realizar tudo que queria fazer, basta encerrar o turno apertando na seta abaixo do cronometro no canto superior esquerdo ou apertando a sua barra de espaço.\n\n- Como funciona os ataques?\n\nVocê pode escolher unidades ativas no seu campo para atacar seu Oponente. Você tem 2 opções de ataque:\n\n1ª Opção: atacar diretamente os PV (pontos de vida) do seu Oponente. Se você causar dano no seu Oponente, ele compra uma carta no topo do Deck e revela, se o BP da carta for maior que o BP da sua unidade atacante, ela é destruída.\n\n2ª Opção: atacar uma unidade virada que seu Oponente controla. Se o BP da unidade for menor que o BP da sua unidade, ela é destruída, caso contrário nada acontece. Em seguida, após o ataque, sua unidade é virada.\n\n- O que eu posso fazer se meu Oponente me atacar diretamente?\n\nVocê pode escolher uma unidade que você controla que não está virada e possui o efeito \"blocker\", o alvo do ataque então é redirecionado para a unidade escolhida.\n\n- O que são Triggers?\n\nTriggers são efeitos que algumas unidades possuem. Esses efeitos só são ativados se você receber dano direto. Quando você compra uma carta após perde 1 ponto de vida, se aquela carta comprada possuir algum efeito trigger, você pode ativá-lo. Algumas cartas exigem condições para se ativar, então cabe a você escolher o que é melhor para o momento.\n\n- Para onde vai a carta que eu compro após receber um ataque direto?\n\nA carta é enviada para a sua Pilha de Descarte, a não ser que algum efeito diga o contrário.",
+  "cardRotation": "90",
 
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/testes/refs/heads/main/cardlist.json",
@@ -23,17 +22,21 @@
       "name",
       "universe"
     ],
+
     "formats": [
       {
         "title": "Standart",
-        "gameplay": "Standart",
-        "customCategories": []
+        "gameplay": "Standart"
       }
     ]
   },
 
   "gameplay": {
     "Standart": {
+
+      "beforeGameStart": {
+        "initialBoardSetup": []
+      },
 
       "mulligan": {
         "info": "Quer mulligar?",
@@ -66,33 +69,14 @@
         "turnOrder": "default"
       },
 
-      "draggableTokens": [
-        {
-          "id": "burn",
-          "name": "Queimadura",
-          "image": "https://cdn.uploaded.photo/2026/09/15/Queimadura.th.png"
-        },
-        {
-          "id": "poison",
-          "name": "Veneno",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.th.png"
-        },
-        {
-          "id": "paralyse",
-          "name": "Paralisia",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.th.png"
-        },
-        {
-          "id": "bleed",
-          "name": "Sangramento",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.th.png"
-        },
-        {
-          "id": "frozen",
-          "name": "Congelamento",
-          "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.th.png"
-        }
-      ],
+"draggableTokens": [
+  { "id": "burn", "name": "Queimadura", "image": "https://cdn.uploaded.photo/2026/09/15/Queimadura.th.png" },
+  { "id": "poison", "name": "Veneno", "image": "https://cdn.uploaded.photo/2026/08/17/Veneno.th.png" },
+  { "id": "paralyse", "name": "Paralisia", "image": "https://cdn.uploaded.photo/2026/08/17/Paralisia.th.png" },
+  { "id": "bleed", "name": "Sangramento", "image": "https://cdn.uploaded.photo/2026/08/17/Sangramento.th.png" },
+  { "id": "frozen", "name": "Congelamento", "image": "https://cdn.uploaded.photo/2026/08/17/Congelamento.th.png" }
+],
+
 
       "defaultNotes": "",
 
@@ -110,12 +94,8 @@
         "customSections": [
           "Vanguarda",
           "Retaguarda",
-          "Unidade Especial",
+          "Deck_Adicional",
           "Zona_de_Eventos"
-        ],
-
-        "categoriesAlreadyOnBoard": [
-          "Unidade Especial"
         ],
 
         "layout": {
@@ -134,7 +114,7 @@
 
               "content": [
                 {
-                  "section": "Unidade Especial",
+                  "section": "Deck_Adicional",
                   "style": {
                     "width": "9vh"
                   }
@@ -178,6 +158,10 @@
 
           ]
         },
+
+        "categoriesAlreadyOnBoard": [
+          "Unidade Especial"
+        ],
 
         "autoPlayFromHand": {
           "Unidade": "Vanguarda",
@@ -246,8 +230,8 @@
             "showHiddenCardInHistory": false
           },
 
-          "Unidade Especial": {
-            "title": "Unidade Especial",
+          "Deck_Adicional": {
+            "title": "Deck_Adicional",
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
