@@ -23,7 +23,9 @@
       "name",
       "universe"
     ],
-
+    "sideDeckCategories": [
+      "Unidade Especial"
+    ],
     "formats": [
       {
         "title": "Standart",
@@ -38,8 +40,7 @@
       "beforeGameStart": {
         "autoMoveCards": [
           {
-            "property": "type",
-            "value": "Unidade Especial",
+            "category": "Unidade Especial",
             "destination": "Deck_Adicional"
           }
         ],
