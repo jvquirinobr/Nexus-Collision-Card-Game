@@ -41,7 +41,7 @@
 
         "beforeGameStart": {
   "initialBoardSetup": [
-    { "type": "Unidade Especial", "destination": "Deck_Adicional" }
+    { "category": "Unidade Especial", "destination": "Deck_Adicional" }
   ]
 },
 
