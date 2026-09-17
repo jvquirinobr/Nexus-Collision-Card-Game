@@ -40,7 +40,11 @@
       "beforeGameStart": {
 
         "beforeGameStart": {
-        "chooseAnotherStartingPlayer": true
+  "boardCategoriesInSideboard": [ "Unidade Especial" ],
+"chooseAnotherStartingPlayer": true
+}
+
+        
       },
 
       "mulligan": {
