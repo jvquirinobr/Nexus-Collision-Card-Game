@@ -9,6 +9,7 @@
   },
 
   "customHelp": "Abaixo está o livro de regras do card game:\n\nhttps://docs.google.com/document/d/1A7FFNsqI-ALPORRPWHUfRdPFhaP3Syn-NsyjnK9h64k/view?usp=sharing",
+
   "cardRotation": "90",
 
   "cards": {
@@ -37,15 +38,10 @@
     "Standart": {
 
       "beforeGameStart": {
-        "chooseAnotherStartingPlayer": true,
-
-        "boardCards": [
-          {
-            "category": "Deck_Adicional",
-            "section": "Deck_Adicional",
-            "owner": "self"
-          }
-        ]
+        "boardCategoriesInSideboard": [
+          "Deck_Adicional"
+        ],
+        "chooseAnotherStartingPlayer": true
       },
 
       "mulligan": {
@@ -158,7 +154,6 @@
                 {
                   "section": "Vanguarda"
                 },
-
                 {
                   "section": "Retaguarda"
                 }
@@ -184,7 +179,7 @@
         },
 
         "categoriesAlreadyOnBoard": [
-          "Unidade Especial"
+          "Deck_Adicional"
         ],
 
         "autoPlayFromHand": {
@@ -256,10 +251,11 @@
 
           "Deck_Adicional": {
             "title": "Deck_Adicional",
-            "isHidden": "yes",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "DECK",
-            "displayedTitle": "Deck Adicional"
+            "displayedTitle": "Deck Adicional",
+            "noQuickActions": false
           }
 
         }
