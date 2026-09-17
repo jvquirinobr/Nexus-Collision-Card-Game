@@ -34,7 +34,9 @@
     "Standart": {
 
       "beforeGameStart": {
-        "initialBoardSetup": []
+        "initialBoardSetup": [
+          { "category": "Unidade Especial", "min": 0, "max": 20, "destination": "Deck_Adicional" }
+        ]
       },
 
       "mulligan": {
