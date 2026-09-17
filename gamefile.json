@@ -42,7 +42,7 @@
           "type": "Unidade Especial",
           "min": 0,
           "max": 20,
-          "unselectedDestination": "ExileHidden"
+          "unselectedDestination": "Deck Adicional"
         }
       ],
       "chooseAnotherStartingPlayer": true
