@@ -28,7 +28,7 @@
         "title": "Standart",
         "gameplay": "Standart",
         "customCategories": [
-          "Deck_Adicional"
+          "Unidade Especial"
         ]
       }
     ]
@@ -38,34 +38,38 @@
     "Standart": {
 
       "beforeGameStart": {
-        "chooseAnotherStartingPlayer": true,
-
         "boardCategoriesInSideboard": [
           "Unidade Especial"
-        ]
+        ],
+
+        "boardCardSelection": [
+          {
+            "category": "Unidade Especial",
+            "min": 0,
+            "max": 99,
+            "unselectedDestination": "Deck_Adicional"
+          }
+        ],
+
+        "chooseAnotherStartingPlayer": true
       },
 
       "mulligan": {
         "info": "Quer mulligar?",
-
         "startingHandSize": 7,
-
         "mulliganCount": {
           "min": 0,
           "max": 1
         },
-
         "mulliganCycle": {
           "steps": [
             "toBottom",
             "draw"
           ],
-
           "selectionRange": {
             "min": 7,
             "max": 7
           },
-
           "keepCardsOrder": false
         }
       },
@@ -112,7 +116,6 @@
       "hideFacedDownCards": true,
 
       "sections": {
-
         "customSections": [
           "Vanguarda",
           "Retaguarda",
@@ -122,19 +125,15 @@
 
         "layout": {
           "direction": "row",
-
           "isSymetricalForOpponents": false,
 
           "content": [
-
             {
               "direction": "column",
-
               "style": {
                 "width": "20%",
                 "justify-content": "flex-start"
               },
-
               "content": [
                 {
                   "section": "Deck_Adicional",
@@ -147,12 +146,10 @@
 
             {
               "direction": "column",
-
               "style": {
                 "width": "60%",
                 "align-items": "center"
               },
-
               "content": [
                 {
                   "section": "Vanguarda"
@@ -165,19 +162,16 @@
 
             {
               "direction": "column",
-
               "style": {
                 "width": "20%",
                 "justify-content": "flex-start"
               },
-
               "content": [
                 {
                   "section": "Zona_de_Eventos"
                 }
               ]
             }
-
           ]
         },
 
@@ -196,7 +190,6 @@
         },
 
         "sectionsDict": {
-
           "Vanguarda": {
             "title": "Vanguarda",
             "isHidden": "no",
@@ -255,7 +248,6 @@
             "alignment": "DECK",
             "displayedTitle": "Deck Adicional"
           }
-
         }
       }
     }
