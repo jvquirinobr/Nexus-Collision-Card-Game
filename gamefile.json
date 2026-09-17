@@ -35,20 +35,16 @@
   "gameplay": {
     "Standart": {
 
-"beforeGameStart": {
-  "boardCategoriesInDeck": [
-    "Unidade Especial"
-  ],
-  "boardCardSelection": [
-    {
-      "category": "Unidade Especial",
-      "min": 0,
-      "max": 0,
-      "unselectedDestination": "Deck_Adicional"
-    }
-  ],
-  "chooseAnotherStartingPlayer": true
-},
+      "beforeGameStart": {
+        "autoMoveCards": [
+          {
+            "property": "type",
+            "value": "Unidade Especial",
+            "destination": "Deck_Adicional"
+          }
+        ],
+        "chooseAnotherStartingPlayer": true
+      },
 
       "mulligan": {
         "info": "Quer mulligar?",
