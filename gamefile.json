@@ -190,7 +190,7 @@
           "Unidade": "Vanguarda",
           "Unidade Especial": "Vanguarda",
           "Evento": "Stack",
-          "Evento Contínuo": "Zona_de_Eventos"
+          "Evento Contínuo": "Stack"
         },
 
         "autoPlayFromStack": {
