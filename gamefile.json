@@ -10,7 +10,7 @@
 
   "customHelp": "Abaixo está o livro de regras do card game:\n\nhttps://docs.google.com/document/d/1A7FFNsqI-ALPORRPWHUfRdPFhaP3Syn-NsyjnK9h64k/view?usp=sharing",
 
-  "cardRotation": "90",
+  "cardRotation": 90,
 
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/jvquirinobr/testes/refs/heads/main/cardlist.json",
@@ -38,8 +38,6 @@
     "Standart": {
 
       "beforeGameStart": {
-
-        "beforeGameStart": {
         "chooseAnotherStartingPlayer": true
       },
 
@@ -104,7 +102,7 @@
 
       "countersStartingValues": [
         0,
-        "0"
+        0
       ],
 
       "hideFacedDownCards": true,
@@ -204,7 +202,6 @@
             "displayedTitle": "Vanguarda",
             "noQuickActions": false,
             "enterTapped": false,
-            "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
@@ -221,7 +218,6 @@
             "displayedTitle": "Retaguarda",
             "noQuickActions": false,
             "enterTapped": false,
-            "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
@@ -238,7 +234,6 @@
             "displayedTitle": "Zona de Eventos",
             "noQuickActions": false,
             "enterTapped": false,
-            "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
