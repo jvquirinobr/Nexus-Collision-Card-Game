@@ -38,6 +38,11 @@
     "Standart": {
 
       "beforeGameStart": {
+        "drawFromTop": "Sideboard",
+            "count": 20,
+            "destination": "DeckEspecial",
+            "overrideState": {
+              "isHidden": "yes",
         "chooseAnotherStartingPlayer": true
       },
 
