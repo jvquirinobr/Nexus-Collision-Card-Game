@@ -243,8 +243,7 @@
             "height": "MEDIUM",
             "alignment": "DECK",
             "displayedTitle": "Deck Adicional",
-            "noQuickActions": false,
-            "isHorizontalAllowed": true
+            "noQuickActions": false
           }
         }
       }
