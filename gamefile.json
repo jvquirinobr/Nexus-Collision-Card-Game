@@ -109,7 +109,8 @@
         "customSections": [
           "Vanguarda",
           "Retaguarda",
-          "Zona_de_Eventos"
+          "Zona_de_Eventos",
+          "Deck_Adicional"
         ],
 
         "layout": {
@@ -122,18 +123,23 @@
               "direction": "column",
 
               "style": {
-                "width": "0%",
-                "justify-content": "flex-start"
+                "width": "20%",
+                "justify-content": "flex-start",
+                "align-items": "center"
               },
 
-              "content": []
+              "content": [
+                {
+                  "section": "Deck_Adicional"
+                }
+              ]
             },
 
             {
               "direction": "column",
 
               "style": {
-                "width": "80%",
+                "width": "60%",
                 "align-items": "center"
               },
 
@@ -229,6 +235,16 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
+          },
+
+          "Deck_Adicional": {
+            "title": "Deck_Adicional",
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "DECK",
+            "displayedTitle": "Deck Adicional",
+            "noQuickActions": false,
+            "isHorizontalAllowed": true
           }
         }
       }
