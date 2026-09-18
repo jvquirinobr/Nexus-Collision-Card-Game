@@ -312,20 +312,123 @@
   "cost": 6
   },
 
-"FMJK-022": {
+  "FMJK-022": {
   "id": "FMJK-022",
   "face": {
-    "front": {
-      "name": {
-        "name": "Cão Divino Totalidade"
-      },
-      "type": "Unidade Especial",
-      "cost": "X",
-      "image": "https://i.pinimg.com/736x/cf/7a/2e/cf7a2e15742c5c89f128168e665c4f62.jpg"
+   "front": {
+      "name": { "name": "Cão Divino Totalidade" },
+     "type": "Unidade Especial",
+     "cost": "X",
+     "image": "https://i.pinimg.com/736x/cf/7a/2e/cf7a2e15742c5c89f128168e665c4f62.jpg"
     }
   },
   "name": "Cão Divino Totalidade",
   "type": "Unidade Especial",
   "cost": "X"
- }
+  },
+  
+  "FMJK-023": {
+  "id": "FMJK-023",
+  "face": {
+   "front": {
+      "name": { "name": "Elefante Máximo - Sombra de peso" },
+     "type": "Unidade",
+     "cost": 7,
+     "image": "https://i.pinimg.com/736x/6e/bd/a3/6ebda39372d0d1ca7f0884ad84044bdf.jpg"
+    }
+  },
+  "name": "Elefante Máximo - Sombra de peso",
+  "type": "Unidade",
+  "cost": 7
+  },
+
+  "FMJK-024": {
+  "id": "FMJK-024",
+  "face": {
+   "front": {
+      "name": { "name": "Nue - Trovões sombrios" },
+     "type": "Unidade",
+     "cost": 4,
+     "image": "https://i.pinimg.com/736x/c3/95/34/c3953457b6ccbca2b8ca52b30eec07dd.jpg"
+    }
+  },
+  "name": "Nue - Trovões sombrios",
+  "type": "Unidade",
+  "cost": 4
+  },
+
+  "FMJK-025": {
+  "id": "FMJK-025",
+  "face": {
+   "front": {
+      "name": { "name": "Fuga do Coelho - Coelho das sombras" },
+     "type": "Unidade",
+     "cost": 1,
+     "image": "https://i.pinimg.com/736x/e0/42/65/e042651bec038ccba6a04423e2c05b5c.jpg"
+    }
+  },
+  "name": "Fuga do Coelho - Coelho das sombras",
+  "type": "Unidade",
+  "cost": 1
+  },
+
+  "FMJK-026": {
+  "id": "FMJK-026",
+  "face": {
+   "front": {
+      "name": { "name": "Abismo Desconhecido do Poço - Sapo Alado" },
+     "type": "Unidade",
+     "cost": 1,
+     "image": "https://i.pinimg.com/736x/d0/ed/1b/d0ed1b04967da1b1028f9949297a2734.jpg"
+    }
+  },
+  "name": "Abismo Desconhecido do Poço - Sapo Alado",
+  "type": "Unidade",
+  "cost": 1
+  },
+
+  "FMJK-027": {
+  "id": "FMJK-027",
+  "face": {
+   "front": {
+      "name": { "name": "Orda de Coelhos das Sombras" },
+     "type": "Evento",
+     "cost": 3,
+     "image": "https://i.pinimg.com/736x/c8/c8/73/c8c873ce8eab6b3d26a2a36d3ea35913.jpg"
+    }
+  },
+  "name": "Orda de Coelhos das Sombras",
+  "type": "Evento",
+  "cost": 3
+  },
+
+  "FMJK-028": {
+  "id": "FMJK-028",
+  "face": {
+   "front": {
+      "name": { "name": "Gama - Anfíbio das somrbas" },
+     "type": "Unidade",
+     "cost": 1,
+     "image": "https://i.pinimg.com/736x/28/48/dd/2848dd1f70f8726e792c5c86980f5b11.jpg"
+    }
+  },
+  "name": "Gama - Anfíbio das somrbas",
+  "type": "Unidade",
+  "cost": 1
+  },
+
+  "FMJK-029": {
+  "id": "FMJK-029",
+  "face": {
+   "front": {
+      "name": { "name": "Grande Serpente Orochi - Serpente Sombria" },
+     "type": "Unidade",
+     "cost": 2,
+     "image": "https://i.pinimg.com/736x/a8/cc/7d/a8cc7d9f6837f564a7c1606a8b405ae6.jpg"
+    }
+  },
+  "name": "Grande Serpente Orochi - Serpente Sombria",
+  "type": "Unidade",
+  "cost": 2
+  }
 }
