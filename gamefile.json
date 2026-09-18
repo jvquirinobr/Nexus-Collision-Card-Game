@@ -1,6 +1,5 @@
 {
   "name": "Nexus Collision",
-
   "menuBackgroundImage": "https://i.pinimg.com/736x/b5/92/94/b5929405156277e491c41a15a6904b4f.jpg",
 
   "defaultRessources": {
@@ -36,14 +35,14 @@
 
   "gameplay": {
     "Standart": {
-
       "beforeGameStart": {
+        "boardCategoriesInSideboard": [
+          "Deck_Adicional"
+        ],
         "chooseAnotherStartingPlayer": true
       },
 
       "mulligan": {
-        "info": "Quer mulligar?",
-
         "startingHandSize": 7,
 
         "mulliganCount": {
@@ -52,6 +51,7 @@
         },
 
         "mulliganCycle": {
+          "info": "Quer mulligar?",
           "steps": [
             "toBottom",
             "draw"
@@ -97,7 +97,6 @@
       ],
 
       "defaultNotes": "",
-
       "tokens": [],
 
       "countersStartingValues": [
@@ -108,14 +107,6 @@
       "hideFacedDownCards": true,
 
       "sections": {
-
-        "customSections": [
-          "Vanguarda",
-          "Retaguarda",
-          "Deck_Adicional",
-          "Zona_de_Eventos"
-        ],
-
         "layout": {
           "direction": "row",
 
@@ -133,6 +124,7 @@
               "content": [
                 {
                   "section": "Deck_Adicional",
+
                   "style": {
                     "width": "9vh"
                   }
@@ -190,9 +182,7 @@
         },
 
         "sectionsDict": {
-
           "Vanguarda": {
-            "title": "Vanguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -208,7 +198,6 @@
           },
 
           "Retaguarda": {
-            "title": "Retaguarda",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -224,7 +213,6 @@
           },
 
           "Zona_de_Eventos": {
-            "title": "Zona_de_Eventos",
             "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
@@ -240,7 +228,6 @@
           },
 
           "Deck_Adicional": {
-            "title": "Deck_Adicional",
             "isHidden": "yes",
             "height": "MEDIUM",
             "alignment": "DECK",
