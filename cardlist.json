@@ -214,14 +214,14 @@
         "name": { "name": "Kento Nanami (BRST01-JJK-1-014)" },
         "type": "Unidade",
         "cost": 5,
-        "color": ["Blue", "Yellow"],
+        "color": ["Blue", "Red"],
         "image": "https://i.pinimg.com/736x/d1/aa/ae/d1aaae476167754cd76682f6d0673c08.jpg"
       }
     },
     "name": "Kento Nanami (BRST01-JJK-1-014)",
     "type": "Unidade",
     "cost": 5,
-    "color": ["Blue", "Yellow"]
+    "color": ["Blue", "Red"]
   },
   "BRST01-JJK-1-015": {
     "id": "BRST01-JJK-1-015",
