@@ -5,334 +5,320 @@
       "front": {
         "name": { "name": "Itadori Yuji (BRST01-JJK-1-001)" },
         "type": "Unidade",
-        "cost": 1,
-        "color": ["Blue"],
-        "image": "https://i.pinimg.com/736x/1b/a0/a6/1ba0a696ccea67507dfc7ce6c12f5d48.jpg"
+        "cost": 6,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/3a/20/66/3a206672638980ab2e77504f3c7631d6.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-001)",
     "type": "Unidade",
-    "cost": 1,
-    "color": ["Blue"]
+    "cost": 6,
+    "color": ["RED"]
   },
+
   "BRST01-JJK-1-002": {
     "id": "BRST01-JJK-1-002",
     "face": {
       "front": {
         "name": { "name": "Itadori Yuji (BRST01-JJK-1-002)" },
         "type": "Unidade",
-        "cost": 1,
-        "color": ["Yellow"],
-        "image": "https://i.pinimg.com/736x/64/13/5b/64135bac514d95612438c7e2661f104c.jpg"
+        "cost": 6,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/97/bc/70/97bc70a152964754d3c0eb2f5ca1dd4e.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-002)",
     "type": "Unidade",
-    "cost": 1,
-    "color": ["Yellow"]
+    "cost": 6,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-003": {
     "id": "BRST01-JJK-1-003",
     "face": {
       "front": {
         "name": { "name": "Itadori Yuji (BRST01-JJK-1-003)" },
         "type": "Unidade",
-        "cost": 2,
-        "color": ["Blue"],
-        "image": "https://i.pinimg.com/736x/6a/97/1d/6a971d871feb777ef23708617184cb41.jpg"
+        "cost": 1,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/27/47/86/274786470fada8f8808ddf2ae7e2dfe7.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-003)",
     "type": "Unidade",
-    "cost": 2,
-    "color": ["Blue"]
+    "cost": 1,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-004": {
     "id": "BRST01-JJK-1-004",
     "face": {
       "front": {
         "name": { "name": "Itadori Yuji (BRST01-JJK-1-004)" },
         "type": "Unidade",
-        "cost": 3,
-        "color": ["Blue"],
-        "image": "https://i.pinimg.com/736x/bc/8f/57/bc8f57d1029df3dae83f1b06267e49a9.jpg"
+        "cost": 1,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/17/51/39/175139fd2002f9e70545712383fa1752.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-004)",
     "type": "Unidade",
-    "cost": 3,
-    "color": ["Blue"]
+    "cost": 1,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-005": {
     "id": "BRST01-JJK-1-005",
     "face": {
       "front": {
         "name": { "name": "Itadori Yuji (BRST01-JJK-1-005)" },
         "type": "Unidade",
-        "cost": 3,
-        "color": ["Blue"],
-        "image": "https://i.pinimg.com/736x/9f/52/30/9f5230c346fc28cf21d5d6d8b394ebf8.jpg"
+        "cost": 2,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/54/b3/dc/54b3dc0286d48b6b1c487273d72e2915.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-005)",
     "type": "Unidade",
-    "cost": 3,
-    "color": ["Blue"]
+    "cost": 2,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-006": {
     "id": "BRST01-JJK-1-006",
     "face": {
       "front": {
-        "name": { "name": "Aoi Todo (BRST01-JJK-1-006)" },
+        "name": { "name": "Itadori Yuji (BRST01-JJK-1-006)" },
         "type": "Unidade",
         "cost": 2,
-        "color": ["Yellow"],
-        "image": "https://i.pinimg.com/736x/cc/d9/85/ccd985d26ab7cc02642f1a9936fdf671.jpg"
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/58/75/4e/58754ecaad21ba52c7bc88d3698b024e.jpg"
       }
     },
-    "name": "Aoi Todo (BRST01-JJK-1-006)",
+    "name": "Itadori Yuji (BRST01-JJK-1-006)",
     "type": "Unidade",
     "cost": 2,
-    "color": ["Yellow"]
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-007": {
     "id": "BRST01-JJK-1-007",
     "face": {
       "front": {
-        "name": { "name": "Aoi Todo (BRST01-JJK-1-007)" },
+        "name": { "name": "Ryomei Sukuna (BRST01-JJK-1-007)" },
         "type": "Unidade",
-        "cost": 4,
-        "color": ["Yellow", "Blue"],
-        "image": "https://i.pinimg.com/736x/64/ca/24/64ca247f70bcac2bfcf18894aa28e63b.jpg"
+        "cost": 2,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/ab/41/67/ab4167bb51c27b9dea5a01187d1100d9.jpg"
       }
     },
-    "name": "Aoi Todo (BRST01-JJK-1-007)",
+    "name": "Ryomei Sukuna (BRST01-JJK-1-007)",
     "type": "Unidade",
-    "cost": 4,
-    "color": ["Yellow", "Blue"]
+    "cost": 2,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-008": {
     "id": "BRST01-JJK-1-008",
     "face": {
       "front": {
-        "name": { "name": "Aoi Todo (BRST01-JJK-1-008)" },
+        "name": { "name": "Ryomei Sukuna (BRST01-JJK-1-008)" },
         "type": "Unidade",
-        "cost": 5,
-        "color": ["Yellow", "Blue"],
-        "image": "https://i.pinimg.com/736x/be/ce/95/bece95b23be8d0c56ce8801989806e1f.jpg"
+        "cost": 3,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/e2/e7/d1/e2e7d12225eb7972a19794c67774aca3.jpg"
       }
     },
-    "name": "Aoi Todo (BRST01-JJK-1-008)",
+    "name": "Ryomei Sukuna (BRST01-JJK-1-008)",
     "type": "Unidade",
-    "cost": 5,
+    "cost": 3,
     "color": ["Yellow", "Blue"]
   },
+  
   "BRST01-JJK-1-009": {
     "id": "BRST01-JJK-1-009",
     "face": {
       "front": {
-        "name": { "name": "Nobara Kugisaki (BRST01-JJK-1-009)" },
+        "name": { "name": "Aoi Todo (BRST01-JJK-1-009)" },
         "type": "Unidade",
-        "cost": 1,
-        "color": ["Blue"],
-        "image": "https://i.pinimg.com/736x/65/cd/b8/65cdb85fc3ca6b841557234d7fb952e6.jpg"
+        "cost": 2,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/6a/4f/5f/6a4f5f229feb7fa071a6fd143ca3adb8.jpg"
       }
     },
-    "name": "Nobara Kugisaki (BRST01-JJK-1-009)",
+    "name": "Aoi Todo (BRST01-JJK-1-009)",
     "type": "Unidade",
-    "cost": 1,
-    "color": ["Blue"]
+    "cost": 2,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-010": {
     "id": "BRST01-JJK-1-010",
     "face": {
       "front": {
-        "name": { "name": "Nobara Kugisaki (BRST01-JJK-1-010)" },
+        "name": { "name": "Aoi Todo (BRST01-JJK-1-010)" },
         "type": "Unidade",
-        "cost": 2,
-        "color": ["Blue"],
-        "image": "https://i.pinimg.com/736x/1c/61/32/1c6132fc79f1676eb80fa5ec248721a5.jpg"
+        "cost": 4,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/97/f3/7b/97f37b8d7d8c707c504ab9b48f98e126.jpg"
       }
     },
-    "name": "Nobara Kugisaki (BRST01-JJK-1-010)",
+    "name": "Aoi Todo (BRST01-JJK-1-010)",
     "type": "Unidade",
-    "cost": 2,
-    "color": ["Blue"]
+    "cost": 4,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-011": {
     "id": "BRST01-JJK-1-011",
     "face": {
       "front": {
-        "name": { "name": "Ryomei Sukuna (BRST01-JJK-1-011)" },
+        "name": { "name": "Aoi Todo (BRST01-JJK-1-011)" },
         "type": "Unidade",
-        "cost": 2,
-        "color": ["Blue", "Red"],
-        "image": "https://i.pinimg.com/736x/d4/89/ba/d489ba7b48cbc9d3e9d3cf5e61744947.jpg"
+        "cost": 5,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/6e/b9/62/6eb9624640ad42e38dd40aba125c993e.jpg"
       }
     },
-    "name": "Ryomei Sukuna (BRST01-JJK-1-011)",
+    "name": "Aoi Todo (BRST01-JJK-1-011)",
     "type": "Unidade",
-    "cost": 2,
-    "color": ["Blue", "Red"]
+    "cost": 5,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-012": {
     "id": "BRST01-JJK-1-012",
     "face": {
       "front": {
-        "name": { "name": "Ryomei Sukuna (BRST01-JJK-1-012)" },
+        "name": { "name": "Kento Nanami (BRST01-JJK-1-012)" },
         "type": "Unidade",
-        "cost": 3,
-        "color": ["Blue", "Red"],
-        "image": "https://i.pinimg.com/736x/09/da/d8/09dad85ca03ac1857dc82e4a059f86fe.jpg"
+        "cost": 4,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/6a/25/da/6a25da712d051a30fdb4c28d49d8ea90.jpg"
       }
     },
-    "name": "Ryomei Sukuna (BRST01-JJK-1-012)",
+    "name": "Kento Nanami (BRST01-JJK-1-012)",
     "type": "Unidade",
-    "cost": 3,
-    "color": ["Blue", "Red"]
+    "cost": 4,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-013": {
     "id": "BRST01-JJK-1-013",
     "face": {
       "front": {
-        "name": { "name": "Satoru Gojo (BRST01-JJK-1-013)" },
+        "name": { "name": "Nobara Kugisaki (BRST01-JJK-1-013)" },
         "type": "Unidade",
-        "cost": 3,
-        "color": ["Yellow"],
-        "image": "https://i.pinimg.com/736x/0f/8b/db/0f8bdb2d251daba83a4b7bfd1916bdfa.jpg"
+        "cost": 2,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/d1/8d/3d/d18d3dfe5a151dfdcc3dfa65c4c7a8d1.jpg"
       }
     },
-    "name": "Satoru Gojo (BRST01-JJK-1-013)",
+    "name": "Nobara Kugisaki (BRST01-JJK-1-013)",
     "type": "Unidade",
-    "cost": 3,
-    "color": ["Yellow"]
+    "cost": 2,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-014": {
     "id": "BRST01-JJK-1-014",
     "face": {
       "front": {
-        "name": { "name": "Kento Nanami (BRST01-JJK-1-014)" },
+        "name": { "name": "Nobara Kugisaki (BRST01-JJK-1-014)" },
         "type": "Unidade",
-        "cost": 5,
-        "color": ["Blue", "Red"],
-        "image": "https://i.pinimg.com/736x/d1/aa/ae/d1aaae476167754cd76682f6d0673c08.jpg"
+        "cost": 4,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/85/e1/3b/85e13bb1216f7f6a0f6e7327f1202d88.jpg"
       }
     },
-    "name": "Kento Nanami (BRST01-JJK-1-014)",
+    "name": "Nobara Kugisaki (BRST01-JJK-1-014)",
     "type": "Unidade",
-    "cost": 5,
-    "color": ["Blue", "Red"]
+    "cost": 4,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-015": {
     "id": "BRST01-JJK-1-015",
     "face": {
       "front": {
-        "name": { "name": "Itadori Yuji (BRST01-JJK-1-015)" },
+        "name": { "name": "Satoru Gojo (BRST01-JJK-1-015)" },
         "type": "Unidade",
-        "cost": 7,
-        "color": ["Blue", "Red"],
-        "image": "https://i.pinimg.com/736x/93/1c/aa/931caa87052b7287d38a1d637edc4897.jpg"
+        "cost": 3,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/9a/21/4a/9a214aef9c3957d62e47aec87151520c.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-015)",
     "type": "Unidade",
-    "cost": 7,
-    "color": ["Blue", "Red"]
+    "cost": 3,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-016": {
     "id": "BRST01-JJK-1-016",
     "face": {
       "front": {
-        "name": { "name": "Itadori Yuji (BRST01-JJK-1-016)" },
-        "type": "Unidade",
-        "cost": 8,
-        "color": ["Blue"],
-        "image": "https://i.pinimg.com/736x/45/a9/f6/45a9f697b81d6aa9a1b3db8c68a22394.jpg"
+        "name": { "name": "Boogie Woogie Estratégica (BRST01-JJK-1-016)" },
+        "type": "Evento",
+        "cost": 2,
+        "color": ["WHITE", "BLUE"],
+        "image": "https://i.pinimg.com/736x/36/b0/5f/36b05f3b365fafbca9bfe954a8a033bb.jpg"
       }
     },
-    "name": "Itadori Yuji (BRST01-JJK-1-016)",
-    "type": "Unidade",
-    "cost": 8,
-    "color": ["Blue"]
+    "name": "Boogie Woogie Estratégica (BRST01-JJK-1-016)",
+    "type": "Evento",
+    "cost": 2,
+    "color": ["WHITE", "BLUE"]
   },
+  
   "BRST01-JJK-1-017": {
     "id": "BRST01-JJK-1-017",
     "face": {
       "front": {
-        "name": { "name": "Voto Vinculativo (BRST01-JJK-1-017)" },
+        "name": { "name": "Boogie Woogie Tática (BRST01-JJK-1-017)" },
         "type": "Evento",
         "cost": 4,
-        "color": ["Branco"],
-        "image": "https://i.pinimg.com/736x/93/02/2d/93022da0a121cc9939e5c885deaeb6f1.jpg"
+        "color": ["WHITE", "BLUE"],
+        "image": "https://i.pinimg.com/736x/e3/3e/bd/e33ebd27b29782b283f7ecec324b2172.jpg"
       }
     },
-    "name": "Voto Vinculativo (BRST01-JJK-1-017)",
+    "name": "Boogie Woogie Tática (BRST01-JJK-1-017)",
     "type": "Evento",
     "cost": 4,
-    "color": ["Branco"]
+    "color": ["WHITE", "BLUE"]
   },
+  
   "BRST01-JJK-1-018": {
     "id": "BRST01-JJK-1-018",
     "face": {
       "front": {
-        "name": { "name": "Dedo de Sukuna (BRST01-JJK-1-018)" },
+        "name": { "name": "Descontrole Emocional (BRST01-JJK-1-018)" },
         "type": "Evento",
-        "cost": 2,
-        "color": ["Branco"],
-        "image": "https://i.pinimg.com/736x/15/6b/21/156b21a6233e37a6adc52695010a658e.jpg"
+        "cost": 3,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/9a/b1/cb/9ab1cbdb36df3d3bb15d4cd5293efe8c.jpg"
       }
     },
-    "name": "Dedo de Sukuna (BRST01-JJK-1-018)",
+    "name": "Descontrole Emocional (BRST01-JJK-1-018)",
     "type": "Evento",
-    "cost": 2,
-    "color": ["Branco"]
+    "cost": 3,
+    "color": ["RED"]
   },
+  
   "BRST01-JJK-1-019": {
     "id": "BRST01-JJK-1-019",
     "face": {
       "front": {
         "name": { "name": "Desmantelar (BRST01-JJK-1-019)" },
         "type": "Evento",
-        "cost": 3,
-        "color": ["Branco"],
-        "image": "https://i.pinimg.com/736x/42/75/4f/42754fea0b50cadd87d46e8738465699.jpg"
+        "cost": 1,
+        "color": ["WHITE"],
+        "image": "https://i.pinimg.com/736x/5a/2e/67/5a2e67fe63e7f6f58f04e5ac883113df.jpg"
       }
     },
     "name": "Desmantelar (BRST01-JJK-1-019)",
     "type": "Evento",
-    "cost": 3,
-    "color": ["Branco"]
-  },
-  "BRST01-JJK-1-020": {
-    "id": "BRST01-JJK-1-020",
-    "face": {
-      "front": {
-        "name": { "name": "Alto-falante Mechamaru (BRST01-JJK-1-020)" },
-        "type": "Evento",
-        "cost": 2,
-        "color": ["Branco"],
-        "image": "https://i.pinimg.com/736x/55/32/82/5532829a8e1115934e8730b54066e3f4.jpg"
-      }
-    },
-    "name": "Alto-falante Mechamaru (BRST01-JJK-1-020)",
-    "type": "Evento",
-    "cost": 2,
-    "color": ["Branco"]
-  },
-  "BRST01-JJK-1-021": {
-    "id": "BRST01-JJK-1-021",
-    "face": {
-      "front": {
-        "name": { "name": "Ryomei Sukuna (BRST01-JJK-1-021)" },
-        "type": "Unidade Especial",
-        "cost": 9,
-        "color": ["Purple"],
-        "image": "https://i.pinimg.com/736x/e8/3e/db/e83edbef5b216f5c61cf0f7b80cc3648.jpg"
-      }
-    },
-    "name": "Ryomei Sukuna (BRST01-JJK-1-021)",
-    "type": "Unidade Especial",
-    "cost": 9,
-    "color": ["Purple"]
+    "cost": 1,
+    "color": ["WHITE"]
   }
 }
