@@ -309,16 +309,33 @@
     "id": "BRST01-JJK-1-019",
     "face": {
       "front": {
-        "name": { "name": "Desmantelar (BRST01-JJK-1-019)" },
+        "name": { "name": "Alto-falante Mechamaru (BRST01-JJK-1-019)" },
         "type": "Evento",
         "cost": 1,
         "color": ["WHITE"],
         "image": "https://i.pinimg.com/736x/5a/2e/67/5a2e67fe63e7f6f58f04e5ac883113df.jpg"
       }
     },
-    "name": "Desmantelar (BRST01-JJK-1-019)",
+    "name": "Alto-falante Mechamaru (BRST01-JJK-1-019)",
     "type": "Evento",
     "cost": 1,
     "color": ["WHITE"]
+  },
+
+  "BRST01-JJK-1-020": {
+    "id": "BRST01-JJK-1-020",
+    "face": {
+      "front": {
+        "name": { "name": "Itadori Yuji (BRST01-JJK-1-020)" },
+        "type": "Unidade",
+        "cost": 3,
+        "color": ["RED"],
+        "image": "https://i.pinimg.com/736x/43/4e/14/434e14ee85d2f4e408c2c69180400a0a.jpg"
+      }
+    },
+    "name": "Itadori Yuji (BRST01-JJK-1-020)",
+    "type": "Unidade",
+    "cost": 3,
+    "color": ["RED"]
   }
 }
