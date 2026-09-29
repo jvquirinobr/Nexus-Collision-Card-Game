@@ -337,5 +337,294 @@
     "type": "Unidade",
     "cost": 3,
     "color": ["RED"]
+  },
+    
+  "BRST02-JJK-1-001": {
+    "id": "BRST02-JJK-2-001",
+    "face": {
+      "front": {
+        "name": { "name": "Mahito (BRST02-JJK-1-001)" },
+        "type": "Unidade",
+        "cost": 1,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/99/0b/66/990b66c0bfee03a46605531afdf09398.jpg"
+      }
+    },
+    "name": "Mahito (BRST02-JJK-1-001)",
+    "type": "Unidade",
+    "cost": 1,
+    "color": ["PURPLE"]
+  },
+  
+  "BRST02-JJK-1-002": {
+    "id": "BRST02-JJK-2-002",
+    "face": {
+      "front": {
+        "name": { "name": "Mahito (BRST02-JJK-1-002)" },
+        "type": "Unidade",
+        "cost": 2,
+        "color": ["PURPLE", "GREEN"],
+        "image": "https://i.pinimg.com/736x/85/1c/ce/851cce5aa947be9757d6c4741a95e1a9.jpg"
+      }
+    },
+    "name": "Mahito (BRST02-JJK-1-002)",
+    "type": "Unidade",
+    "cost": 2,
+    "color": ["PURPLE", "GREEN"]
+  },
+
+  "BRST02-JJK-1-003": {
+    "id": "BRST02-JJK-2-003",
+    "face": {
+      "front": {
+        "name": { "name": "Mahito (BRST02-JJK-1-003)" },
+        "type": "Unidade",
+        "cost": 2,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/44/81/9f/44819f29304a4e9284993b8d0ddf1624.jpg"
+      }
+    },
+    "name": "Mahito (BRST02-JJK-1-003)",
+    "type": "Unidade",
+    "cost": 2,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-004": {
+    "id": "BRST02-JJK-2-004",
+    "face": {
+      "front": {
+        "name": { "name": "Mahito (BRST02-JJK-1-004)" },
+        "type": "Unidade",
+        "cost": 2,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/88/c4/65/88c465379b72aace5211146377021431.jpg"
+      }
+    },
+    "name": "Mahito (BRST02-JJK-1-004)",
+    "type": "Unidade",
+    "cost": 2,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-005": {
+    "id": "BRST02-JJK-2-005",
+    "face": {
+      "front": {
+        "name": { "name": "Mahito (BRST02-JJK-1-005)" },
+        "type": "Unidade",
+        "cost": 3,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/f6/7a/04/f67a046198476c7dafedd05df3cf3249.jpg"
+      }
+    },
+    "name": "Mahito (BRST02-JJK-1-005)",
+    "type": "Unidade",
+    "cost": 3,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-006": {
+    "id": "BRST02-JJK-2-006",
+    "face": {
+      "front": {
+        "name": { "name": "Mahito (BRST02-JJK-1-006)" },
+        "type": "Unidade",
+        "cost": 3,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/d4/3a/1e/d43a1eefb227589e9d191932647d78bd.jpg"
+      }
+    },
+    "name": "Mahito (BRST02-JJK-1-006)",
+    "type": "Unidade",
+    "cost": 3,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-007": {
+    "id": "BRST02-JJK-2-007",
+    "face": {
+      "front": {
+        "name": { "name": "Pessoa Transfigurada (BRST02-JJK-1-007)" },
+        "type": "Unidade",
+        "cost": 1,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/d0/d1/68/d0d168ed2ae7f8fcb53a4670cfbd62c8.jpg"
+      }
+    },
+    "name": "Pessoa Transfigurada (BRST02-JJK-1-007)",
+    "type": "Unidade",
+    "cost": 1,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-008": {
+    "id": "BRST02-JJK-2-008",
+    "face": {
+      "front": {
+        "name": { "name": "Pessoa Transfigurada (BRST02-JJK-1-008)" },
+        "type": "Unidade",
+        "cost": 1,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/92/7b/9c/927b9cd6c8addac883fd3f1361c65008.jpg"
+      }
+    },
+    "name": "Pessoa Transfigurada (BRST02-JJK-1-008)",
+    "type": "Unidade",
+    "cost": 1,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-009": {
+    "id": "BRST02-JJK-2-009",
+    "face": {
+      "front": {
+        "name": { "name": "Junpei Yoshino (BRST02-JJK-1-009)" },
+        "type": "Unidade",
+        "cost": 1,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/7c/7a/a4/7c7aa4f44984d0d41d784f921fd7516e.jpg"
+      }
+    },
+    "name": "Junpei Yoshino (BRST02-JJK-1-009)",
+    "type": "Unidade",
+    "cost": 1,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-010": {
+    "id": "BRST02-JJK-2-010",
+    "face": {
+      "front": {
+        "name": { "name": "Junpei Yoshino (BRST02-JJK-1-010)" },
+        "type": "Unidade",
+        "cost": 2,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/66/4a/34/664a34607bdf47c944aacb0eea76c39e.jpg"
+      }
+    },
+    "name": "Junpei Yoshino (BRST02-JJK-1-010)",
+    "type": "Unidade",
+    "cost": 2,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-011": {
+    "id": "BRST02-JJK-2-011",
+    "face": {
+      "front": {
+        "name": { "name": "Junpei Yoshino (BRST02-JJK-1-011)" },
+        "type": "Unidade",
+        "cost": 2,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/5f/56/8a/5f568a46954876e1a9c452020385e5ca.jpg"
+      }
+    },
+    "name": "Junpei Yoshino (BRST02-JJK-1-011)",
+    "type": "Unidade",
+    "cost": 2,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-012": {
+    "id": "BRST02-JJK-2-012",
+    "face": {
+      "front": {
+        "name": { "name": "Kenjaku (BRST02-JJK-1-012)" },
+        "type": "Unidade",
+        "cost": 3,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/b7/47/bd/b747bd9cc113dd6e3c2e3ad307befbf8.jpg"
+      }
+    },
+    "name": "Kenjaku (BRST02-JJK-1-012)",
+    "type": "Unidade",
+    "cost": 3,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-013": {
+    "id": "BRST02-JJK-2-013",
+    "face": {
+      "front": {
+        "name": { "name": "Kenjaku (BRST02-JJK-1-013)" },
+        "type": "Unidade",
+        "cost": 3,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/66/ee/1d/66ee1dc2b4686b31383512029ac8b7fa.jpg"
+      }
+    },
+    "name": "Kenjaku (BRST02-JJK-1-013)",
+    "type": "Unidade",
+    "cost": 3,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-014": {
+    "id": "BRST02-JJK-2-014",
+    "face": {
+      "front": {
+        "name": { "name": "Mahito (BRST02-JJK-1-014)" },
+        "type": "Unidade",
+        "cost": 6,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/8e/2d/74/8e2d74ea9d8231c1842c059968c91635.jpg"
+      }
+    },
+    "name": "Mahito (BRST02-JJK-1-014)",
+    "type": "Unidade",
+    "cost": 6,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-016": {
+    "id": "BRST02-JJK-2-016",
+    "face": {
+      "front": {
+        "name": { "name": "Toque Surpresa (BRST02-JJK-1-016)" },
+        "type": "Evento",
+        "cost": 3,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/88/38/de/8838de4c09104f221278afbadba29328.jpg"
+      }
+    },
+    "name": "Toque Surpresa (BRST02-JJK-1-016)",
+    "type": "Unidade",
+    "cost": 3,
+    "color": ["PURPLE"]
+  },
+
+  "BRST02-JJK-1-017": {
+    "id": "BRST02-JJK-2-017",
+    "face": {
+      "front": {
+        "name": { "name": "Fuga 'estratégica' (BRST02-JJK-1-017)" },
+        "type": "Evento",
+        "cost": 2,
+        "color": ["WHITE"],
+        "image": "https://i.pinimg.com/736x/95/f8/ba/95f8ba606c780819a15b5905a43c2de7.jpg"
+      }
+    },
+    "name": "Fuga 'estratégica' (BRST02-JJK-1-017)",
+    "type": "Unidade",
+    "cost": 2,
+    "color": ["WHITE"]
+  },
+
+"BRST02-JJK-1-018": {
+    "id": "BRST02-JJK-2-018",
+    "face": {
+      "front": {
+        "name": { "name": "Sementes de Transfiguração (BRST02-JJK-1-018)" },
+        "type": "Evento",
+        "cost": 2,
+        "color": ["PURPLE"],
+        "image": "https://i.pinimg.com/736x/6c/e1/71/6ce171a987a9db29c09104021896d18d.jpg"
+      }
+    },
+    "name": "Sementes de Transfiguração (BRST02-JJK-1-018)",
+    "type": "Unidade",
+    "cost": 2,
+    "color": ["PURPLE"]
   }
 }
