@@ -753,6 +753,30 @@
       "PURPLE"
     ]
   },
+  
+  "BRST02-JJK-1-015": {
+    "id": "BRST02-JJK-1-015",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mahito (BRST02-JJK-1-015)"
+        },
+        "type": "Unidade",
+        "cost": 8,
+        "color": [
+          "PURPLE", "GREEN"
+        ],
+        "image": "https://i.pinimg.com/736x/2c/72/95/2c72956a58262c74914cd5b950b97046.jpg"
+      }
+    },
+    "name": "Mahito (BRST02-JJK-1-015)",
+    "type": "Unidade",
+    "cost": 8,
+    "color": [
+      "PURPLE", "GREEN"
+    ]
+  },
+
   "BRST02-JJK-1-016": {
     "id": "BRST02-JJK-1-016",
     "face": {
