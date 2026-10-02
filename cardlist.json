@@ -11,7 +11,7 @@
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/3a/20/66/3a206672638980ab2e77504f3c7631d6.jpg"
+        "image": "https://i.pinimg.com/736x/e9/cc/2c/e9cc2ca0df5a5e5c72122d5508362b68.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-001)",
@@ -33,7 +33,7 @@
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/97/bc/70/97bc70a152964754d3c0eb2f5ca1dd4e.jpg"
+        "image": "https://i.pinimg.com/736x/d1/69/c9/d169c9150fcf4de9a1e3d3a444d57738.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-002)",
@@ -55,7 +55,7 @@
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/27/47/86/274786470fada8f8808ddf2ae7e2dfe7.jpg"
+        "image": "https://i.pinimg.com/736x/5e/f3/df/5ef3df4bbf1fa1137445d24a49768bc5.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-003)",
@@ -77,7 +77,7 @@
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/17/51/39/175139fd2002f9e70545712383fa1752.jpg"
+        "image": "https://i.pinimg.com/736x/e4/80/0e/e4800ea9f8dfd4c3b7db381352b674ff.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-004)",
@@ -99,7 +99,7 @@
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/54/b3/dc/54b3dc0286d48b6b1c487273d72e2915.jpg"
+        "image": "https://i.pinimg.com/736x/d7/96/96/d796965d33c812773a7066e79a556d82.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-005)",
@@ -121,7 +121,7 @@
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/58/75/4e/58754ecaad21ba52c7bc88d3698b024e.jpg"
+        "image": "https://i.pinimg.com/736x/ba/6c/67/ba6c67cb2520ecac03cecd13c1f96752.jpg"
       }
     },
     "name": "Itadori Yuji (BRST01-JJK-1-006)",
@@ -136,19 +136,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Ryomei Sukuna (BRST01-JJK-1-007)"
+          "name": "Itadori Yuji (BRST01-JJK-1-007)"
         },
         "type": "Unidade",
-        "cost": 2,
+        "cost": 3,
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/ab/41/67/ab4167bb51c27b9dea5a01187d1100d9.jpg"
+        "image": "https://i.pinimg.com/736x/f6/79/25/f679252acd3d7ae77499ffedbb4f0dd3.jpg"
       }
     },
-    "name": "Ryomei Sukuna (BRST01-JJK-1-007)",
+    "name": "Itadori Yuji (BRST01-JJK-1-007)",
     "type": "Unidade",
-    "cost": 2,
+    "cost": 3,
     "color": [
       "RED"
     ]
@@ -158,19 +158,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Ryomei Sukuna (BRST01-JJK-1-008)"
+          "name": "Aoi Todo (BRST01-JJK-1-008)"
         },
         "type": "Unidade",
-        "cost": 3,
+        "cost": 2,
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/e2/e7/d1/e2e7d12225eb7972a19794c67774aca3.jpg"
+        "image": "https://i.pinimg.com/736x/4b/a9/c3/4ba9c33fbda7572c4f0f03473a5a38eb.jpg"
       }
     },
-    "name": "Ryomei Sukuna (BRST01-JJK-1-008)",
+    "name": "Aoi Todo (BRST01-JJK-1-008)",
     "type": "Unidade",
-    "cost": 3,
+    "cost": 2,
     "color": [
       "RED"
     ]
@@ -183,16 +183,16 @@
           "name": "Aoi Todo (BRST01-JJK-1-009)"
         },
         "type": "Unidade",
-        "cost": 2,
+        "cost": 4,
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/6a/4f/5f/6a4f5f229feb7fa071a6fd143ca3adb8.jpg"
+        "image": "https://i.pinimg.com/736x/af/f5/e8/aff5e832f140058b685bb5b04244265a.jpg"
       }
     },
     "name": "Aoi Todo (BRST01-JJK-1-009)",
     "type": "Unidade",
-    "cost": 2,
+    "cost": 4,
     "color": [
       "RED"
     ]
@@ -205,16 +205,16 @@
           "name": "Aoi Todo (BRST01-JJK-1-010)"
         },
         "type": "Unidade",
-        "cost": 4,
+        "cost": 5,
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/97/f3/7b/97f37b8d7d8c707c504ab9b48f98e126.jpg"
+        "image": "https://i.pinimg.com/736x/24/69/e9/2469e915cdec7dd42558feea9dad53ff.jpg"
       }
     },
     "name": "Aoi Todo (BRST01-JJK-1-010)",
     "type": "Unidade",
-    "cost": 4,
+    "cost": 5,
     "color": [
       "RED"
     ]
@@ -224,19 +224,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Aoi Todo (BRST01-JJK-1-011)"
+          "name": "Nobara Kugisaki (BRST01-JJK-1-011)"
         },
         "type": "Unidade",
-        "cost": 5,
+        "cost": 2,
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/6e/b9/62/6eb9624640ad42e38dd40aba125c993e.jpg"
+        "image": "https://i.pinimg.com/736x/7e/11/1a/7e111a36557c633475df5bf2e20c3b40.jpg"
       }
     },
-    "name": "Aoi Todo (BRST01-JJK-1-011)",
+    "name": "Nobara Kugisaki (BRST01-JJK-1-011)",
     "type": "Unidade",
-    "cost": 5,
+    "cost": 2,
     "color": [
       "RED"
     ]
@@ -246,17 +246,17 @@
     "face": {
       "front": {
         "name": {
-          "name": "Kento Nanami (BRST01-JJK-1-012)"
+          "name": "Nobara Kugisaki (BRST01-JJK-1-012)"
         },
         "type": "Unidade",
         "cost": 4,
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/6a/25/da/6a25da712d051a30fdb4c28d49d8ea90.jpg"
+        "image": "https://i.pinimg.com/736x/90/87/aa/9087aa640a6947a145dfd8c2751942eb.jpg"
       }
     },
-    "name": "Kento Nanami (BRST01-JJK-1-012)",
+    "name": "Nobara Kugisaki (BRST01-JJK-1-012)",
     "type": "Unidade",
     "cost": 4,
     "color": [
@@ -268,17 +268,17 @@
     "face": {
       "front": {
         "name": {
-          "name": "Nobara Kugisaki (BRST01-JJK-1-013)"
+          "name": "Ryomei Sukuna (BRST01-JJK-1-013)"
         },
         "type": "Unidade",
         "cost": 2,
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/d1/8d/3d/d18d3dfe5a151dfdcc3dfa65c4c7a8d1.jpg"
+        "image": "https://i.pinimg.com/736x/f8/e0/26/f8e026cdb7c3a6f55542552f5d206f79.jpg"
       }
     },
-    "name": "Nobara Kugisaki (BRST01-JJK-1-013)",
+    "name": "Ryomei Sukuna (BRST01-JJK-1-013)",
     "type": "Unidade",
     "cost": 2,
     "color": [
@@ -290,19 +290,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Nobara Kugisaki (BRST01-JJK-1-014)"
+          "name": "Ryomei Sukuna (BRST01-JJK-1-014)"
         },
         "type": "Unidade",
-        "cost": 4,
+        "cost": 3,
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/85/e1/3b/85e13bb1216f7f6a0f6e7327f1202d88.jpg"
+        "image": "https://i.pinimg.com/736x/73/2e/44/732e44684af5c53c54075f807f25097a.jpg"
       }
     },
-    "name": "Nobara Kugisaki (BRST01-JJK-1-014)",
+    "name": "Ryomei Sukuna (BRST01-JJK-1-014)",
     "type": "Unidade",
-    "cost": 4,
+    "cost": 3,
     "color": [
       "RED"
     ]
@@ -312,19 +312,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Satoru Gojo (BRST01-JJK-1-015)"
+          "name": "Kento Nanami (BRST01-JJK-1-015)"
         },
         "type": "Unidade",
-        "cost": 3,
+        "cost": 4,
         "color": [
           "RED"
         ],
-        "image": "https://i.pinimg.com/736x/9a/21/4a/9a214aef9c3957d62e47aec87151520c.jpg"
+        "image": "https://i.pinimg.com/736x/83/19/d1/8319d193b8cb083252dcc646f4d92ee1.jpg"
       }
     },
-    "name": "Satoru Gojo (BRST01-JJK-1-015)",
+    "name": "Kento Nanami (BRST01-JJK-1-015)",
     "type": "Unidade",
-    "cost": 3,
+    "cost": 4,
     "color": [
       "RED"
     ]
@@ -334,23 +334,21 @@
     "face": {
       "front": {
         "name": {
-          "name": "Boogie Woogie Estratégica (BRST01-JJK-1-016)"
+          "name": "Satoru Gojo (BRST01-JJK-1-016)"
         },
-        "type": "Evento",
-        "cost": 2,
+        "type": "Unidade",
+        "cost": 3,
         "color": [
-          "WHITE",
-          "BLUE"
+          "RED"
         ],
-        "image": "https://i.pinimg.com/736x/36/b0/5f/36b05f3b365fafbca9bfe954a8a033bb.jpg"
+        "image": "https://i.pinimg.com/736x/85/25/ae/8525aed3752fdbf6e0bbeaf7efa764d5.jpg"
       }
     },
-    "name": "Boogie Woogie Estratégica (BRST01-JJK-1-016)",
-    "type": "Evento",
-    "cost": 2,
+    "name": "Satoru Gojo (BRST01-JJK-1-016)",
+    "type": "Unidade",
+    "cost": 3,
     "color": [
-      "WHITE",
-      "BLUE"
+      "RED"
     ]
   },
   "BRST01-JJK-1-017": {
@@ -358,23 +356,21 @@
     "face": {
       "front": {
         "name": {
-          "name": "Boogie Woogie Tática (BRST01-JJK-1-017)"
+          "name": "Descontrole Emocional (BRST01-JJK-1-017)"
         },
         "type": "Evento",
-        "cost": 4,
+        "cost": 3,
         "color": [
-          "WHITE",
-          "BLUE"
+          "RED"
         ],
-        "image": "https://i.pinimg.com/736x/e3/3e/bd/e33ebd27b29782b283f7ecec324b2172.jpg"
+        "image": "https://i.pinimg.com/736x/53/f5/c1/53f5c169230e666fe6369bf7b20211f4.jpg"
       }
     },
-    "name": "Boogie Woogie Tática (BRST01-JJK-1-017)",
+    "name": "Descontrole Emocional (BRST01-JJK-1-017)",
     "type": "Evento",
-    "cost": 4,
+    "cost": 3,
     "color": [
-      "WHITE",
-      "BLUE"
+      "RED"
     ]
   },
   "BRST01-JJK-1-018": {
@@ -382,21 +378,21 @@
     "face": {
       "front": {
         "name": {
-          "name": "Descontrole Emocional (BRST01-JJK-1-018)"
+          "name": "Boogie Woogie Estratégica (BRST01-JJK-1-018)"
         },
         "type": "Evento",
-        "cost": 3,
+        "cost": 2,
         "color": [
-          "RED"
+          "WHITE"
         ],
-        "image": "https://i.pinimg.com/736x/9a/b1/cb/9ab1cbdb36df3d3bb15d4cd5293efe8c.jpg"
+        "image": "https://i.pinimg.com/736x/56/f6/6b/56f66b7acfee294434ff5a6328c8fb7b.jpg"
       }
     },
-    "name": "Descontrole Emocional (BRST01-JJK-1-018)",
+    "name": "Boogie Woogie Estratégica (BRST01-JJK-1-018)",
     "type": "Evento",
-    "cost": 3,
+    "cost": 2,
     "color": [
-      "RED"
+      "WHITE"
     ]
   },
   "BRST01-JJK-1-019": {
@@ -404,19 +400,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Alto-falante Mechamaru (BRST01-JJK-1-019)"
+          "name": "Boogie Woogie Tática (BRST01-JJK-1-019)"
         },
         "type": "Evento",
-        "cost": 1,
+        "cost": 4,
         "color": [
           "WHITE"
         ],
-        "image": "https://i.pinimg.com/736x/5a/2e/67/5a2e67fe63e7f6f58f04e5ac883113df.jpg"
+        "image": "https://i.pinimg.com/736x/ae/a5/67/aea5674c25266e4d61931ae130113b00.jpg"
       }
     },
-    "name": "Alto-falante Mechamaru (BRST01-JJK-1-019)",
+    "name": "Boogie Woogie Tática (BRST01-JJK-1-019)",
     "type": "Evento",
-    "cost": 1,
+    "cost": 4,
     "color": [
       "WHITE"
     ]
@@ -426,21 +422,21 @@
     "face": {
       "front": {
         "name": {
-          "name": "Itadori Yuji (BRST01-JJK-1-020)"
+          "name": "Alto-falante Mechamaru (BRST01-JJK-1-020)"
         },
-        "type": "Unidade",
-        "cost": 3,
+        "type": "Evento",
+        "cost": 1,
         "color": [
-          "RED"
+          "WHITE"
         ],
-        "image": "https://i.pinimg.com/736x/43/4e/14/434e14ee85d2f4e408c2c69180400a0a.jpg"
+        "image": "https://i.pinimg.com/736x/6c/a6/bd/6ca6bd00099b57c8ca3da46d7dea829b.jpg"
       }
     },
-    "name": "Itadori Yuji (BRST01-JJK-1-020)",
-    "type": "Unidade",
-    "cost": 3,
+    "name": "Alto-falante Mechamaru (BRST01-JJK-1-020)",
+    "type": "Evento",
+    "cost": 1,
     "color": [
-      "RED"
+      "WHITE"
     ]
   },
   "BRST02-JJK-1-001": {
@@ -451,16 +447,16 @@
           "name": "Mahito (BRST02-JJK-1-001)"
         },
         "type": "Unidade",
-        "cost": 1,
+        "cost": 6,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/99/0b/66/990b66c0bfee03a46605531afdf09398.jpg"
+        "image": "https://i.pinimg.com/736x/83/93/ad/8393ad835283d90140e575f5b2eda468.jpg"
       }
     },
     "name": "Mahito (BRST02-JJK-1-001)",
     "type": "Unidade",
-    "cost": 1,
+    "cost": 6,
     "color": [
       "PURPLE"
     ]
@@ -473,17 +469,17 @@
           "name": "Mahito (BRST02-JJK-1-002)"
         },
         "type": "Unidade",
-        "cost": 2,
+        "cost": 8,
         "color": [
           "PURPLE",
           "GREEN"
         ],
-        "image": "https://i.pinimg.com/736x/85/1c/ce/851cce5aa947be9757d6c4741a95e1a9.jpg"
+        "image": "https://i.pinimg.com/736x/43/ba/e0/43bae04a895c3469d4ea41ae77e51130.jpg"
       }
     },
     "name": "Mahito (BRST02-JJK-1-002)",
     "type": "Unidade",
-    "cost": 2,
+    "cost": 8,
     "color": [
       "PURPLE",
       "GREEN"
@@ -497,16 +493,16 @@
           "name": "Mahito (BRST02-JJK-1-003)"
         },
         "type": "Unidade",
-        "cost": 2,
+        "cost": 1,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/44/81/9f/44819f29304a4e9284993b8d0ddf1624.jpg"
+        "image": "https://i.pinimg.com/736x/f6/07/e5/f607e5e1b89a9c59843cef902c2061b7.jpg"
       }
     },
     "name": "Mahito (BRST02-JJK-1-003)",
     "type": "Unidade",
-    "cost": 2,
+    "cost": 1,
     "color": [
       "PURPLE"
     ]
@@ -521,16 +517,16 @@
         "type": "Unidade",
         "cost": 2,
         "color": [
-          "PURPLE"
+          "PURPLE", "GREEN"
         ],
-        "image": "https://i.pinimg.com/736x/88/c4/65/88c465379b72aace5211146377021431.jpg"
+        "image": "https://i.pinimg.com/736x/d2/0f/99/d20f9990c2b4f86b7b380e5175d85940.jpg"
       }
     },
     "name": "Mahito (BRST02-JJK-1-004)",
     "type": "Unidade",
     "cost": 2,
     "color": [
-      "PURPLE"
+      "PURPLE", "GREEN"
     ]
   },
   "BRST02-JJK-1-005": {
@@ -541,16 +537,16 @@
           "name": "Mahito (BRST02-JJK-1-005)"
         },
         "type": "Unidade",
-        "cost": 3,
+        "cost": 2,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/f6/7a/04/f67a046198476c7dafedd05df3cf3249.jpg"
+        "image": "https://i.pinimg.com/736x/c9/d6/31/c9d631d10379bb3b68417b99c3bf3ac2.jpg"
       }
     },
     "name": "Mahito (BRST02-JJK-1-005)",
     "type": "Unidade",
-    "cost": 3,
+    "cost": 2,
     "color": [
       "PURPLE"
     ]
@@ -563,16 +559,16 @@
           "name": "Mahito (BRST02-JJK-1-006)"
         },
         "type": "Unidade",
-        "cost": 3,
+        "cost": 2,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/d4/3a/1e/d43a1eefb227589e9d191932647d78bd.jpg"
+        "image": "https://i.pinimg.com/736x/cf/b7/8c/cfb78cf94e64341ff9aac9e9ee779508.jpg"
       }
     },
     "name": "Mahito (BRST02-JJK-1-006)",
     "type": "Unidade",
-    "cost": 3,
+    "cost": 2,
     "color": [
       "PURPLE"
     ]
@@ -582,19 +578,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Pessoa Transfigurada (BRST02-JJK-1-007)"
+          "name": "Mahito (BRST02-JJK-1-007)"
         },
         "type": "Unidade",
-        "cost": 1,
+        "cost": 3,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/d0/d1/68/d0d168ed2ae7f8fcb53a4670cfbd62c8.jpg"
+        "image": "https://i.pinimg.com/736x/c3/5b/be/c35bbed56498d76efb6294432b27016a.jpg"
       }
     },
-    "name": "Pessoa Transfigurada (BRST02-JJK-1-007)",
+    "name": "Mahito (BRST02-JJK-1-007)",
     "type": "Unidade",
-    "cost": 1,
+    "cost": 3,
     "color": [
       "PURPLE"
     ]
@@ -604,19 +600,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Pessoa Transfigurada (BRST02-JJK-1-008)"
+          "name": "Mahito (BRST02-JJK-1-008)"
         },
         "type": "Unidade",
-        "cost": 1,
+        "cost": 3,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/92/7b/9c/927b9cd6c8addac883fd3f1361c65008.jpg"
+        "image": "https://i.pinimg.com/736x/90/18/cb/9018cb47f71f2b1c7d957f325145eaa1.jpg"
       }
     },
-    "name": "Pessoa Transfigurada (BRST02-JJK-1-008)",
+    "name": "Mahito (BRST02-JJK-1-008)",
     "type": "Unidade",
-    "cost": 1,
+    "cost": 3,
     "color": [
       "PURPLE"
     ]
@@ -626,17 +622,17 @@
     "face": {
       "front": {
         "name": {
-          "name": "Junpei Yoshino (BRST02-JJK-1-009)"
+          "name": "Pessoa Transfigurada (BRST02-JJK-1-009)"
         },
         "type": "Unidade",
         "cost": 1,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/7c/7a/a4/7c7aa4f44984d0d41d784f921fd7516e.jpg"
+        "image": "https://i.pinimg.com/736x/a9/9f/41/a99f4135757ecfef38bf3c7682496a93.jpg"
       }
     },
-    "name": "Junpei Yoshino (BRST02-JJK-1-009)",
+    "name": "Pessoa Transfigurada (BRST02-JJK-1-009)",
     "type": "Unidade",
     "cost": 1,
     "color": [
@@ -648,19 +644,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Junpei Yoshino (BRST02-JJK-1-010)"
+          "name": "Pessoa Transfigurada (BRST02-JJK-1-010)"
         },
         "type": "Unidade",
-        "cost": 2,
+        "cost": 1,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/66/4a/34/664a34607bdf47c944aacb0eea76c39e.jpg"
+        "image": "https://i.pinimg.com/736x/1b/4a/bb/1b4abb90b0ad0bedc89af108bca8234e.jpg"
       }
     },
-    "name": "Junpei Yoshino (BRST02-JJK-1-010)",
+    "name": "Pessoa Transfigurada (BRST02-JJK-1-010)",
     "type": "Unidade",
-    "cost": 2,
+    "cost": 1,
     "color": [
       "PURPLE"
     ]
@@ -673,16 +669,16 @@
           "name": "Junpei Yoshino (BRST02-JJK-1-011)"
         },
         "type": "Unidade",
-        "cost": 2,
+        "cost": 1,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/5f/56/8a/5f568a46954876e1a9c452020385e5ca.jpg"
+        "image": "https://i.pinimg.com/736x/9c/ae/7b/9cae7b316c7318891584cba9abe42cdf.jpg"
       }
     },
     "name": "Junpei Yoshino (BRST02-JJK-1-011)",
     "type": "Unidade",
-    "cost": 2,
+    "cost": 1,
     "color": [
       "PURPLE"
     ]
@@ -692,19 +688,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Kenjaku (BRST02-JJK-1-012)"
+          "name": "Junpei Yoshino (BRST02-JJK-1-012)"
         },
         "type": "Unidade",
-        "cost": 3,
+        "cost": 2,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/b7/47/bd/b747bd9cc113dd6e3c2e3ad307befbf8.jpg"
+        "image": "https://i.pinimg.com/736x/8a/67/05/8a6705596b3175bad6fdc718aa7fa789.jpg"
       }
     },
-    "name": "Kenjaku (BRST02-JJK-1-012)",
+    "name": "Junpei Yoshino (BRST02-JJK-1-012)",
     "type": "Unidade",
-    "cost": 3,
+    "cost": 2,
     "color": [
       "PURPLE"
     ]
@@ -714,19 +710,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Kenjaku (BRST02-JJK-1-013)"
+          "name": "Junpei Yoshino (BRST02-JJK-1-013)"
         },
         "type": "Unidade",
-        "cost": 3,
+        "cost": 2,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/66/ee/1d/66ee1dc2b4686b31383512029ac8b7fa.jpg"
+        "image": "https://i.pinimg.com/736x/89/c8/8c/89c88cb86e6d84d5eb60ee8094a836e8.jpg"
       }
     },
-    "name": "Kenjaku (BRST02-JJK-1-013)",
+    "name": "Junpei Yoshino (BRST02-JJK-1-013)",
     "type": "Unidade",
-    "cost": 3,
+    "cost": 2,
     "color": [
       "PURPLE"
     ]
@@ -736,19 +732,19 @@
     "face": {
       "front": {
         "name": {
-          "name": "Mahito (BRST02-JJK-1-014)"
+          "name": "Kenjaku (BRST02-JJK-1-014)"
         },
         "type": "Unidade",
-        "cost": 6,
+        "cost": 3,
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/8e/2d/74/8e2d74ea9d8231c1842c059968c91635.jpg"
+        "image": "https://i.pinimg.com/736x/9a/26/e3/9a26e3295e4e7d65a5e72151977d79b5.jpg"
       }
     },
-    "name": "Mahito (BRST02-JJK-1-014)",
+    "name": "Kenjaku (BRST02-JJK-1-014)",
     "type": "Unidade",
-    "cost": 6,
+    "cost": 3,
     "color": [
       "PURPLE"
     ]
@@ -759,21 +755,21 @@
     "face": {
       "front": {
         "name": {
-          "name": "Mahito (BRST02-JJK-1-015)"
+          "name": "Kenjaku (BRST02-JJK-1-015)"
         },
         "type": "Unidade",
-        "cost": 8,
+        "cost": 3,
         "color": [
-          "PURPLE", "GREEN"
+          "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/2c/72/95/2c72956a58262c74914cd5b950b97046.jpg"
+        "image": "https://i.pinimg.com/736x/42/a9/83/42a983972a8f3f6d8aa8ecda70c1f63b.jpg"
       }
     },
-    "name": "Mahito (BRST02-JJK-1-015)",
+    "name": "Kenjaku (BRST02-JJK-1-015)",
     "type": "Unidade",
-    "cost": 8,
+    "cost": 3,
     "color": [
-      "PURPLE", "GREEN"
+      "PURPLE"
     ]
   },
 
@@ -789,7 +785,7 @@
         "color": [
           "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/88/38/de/8838de4c09104f221278afbadba29328.jpg"
+        "image": "https://i.pinimg.com/736x/31/2e/8a/312e8a87ea186425ce53e3bd790163bc.jpg"
       }
     },
     "name": "Toque Surpresa (BRST02-JJK-1-016)",
@@ -804,21 +800,21 @@
     "face": {
       "front": {
         "name": {
-          "name": "Fuga 'estratégica' (BRST02-JJK-1-017)"
+          "name": "Semente de Transfigurado (BRST02-JJK-1-017)"
         },
         "type": "Evento",
         "cost": 2,
         "color": [
-          "WHITE"
+          "PURPLE"
         ],
-        "image": "https://i.pinimg.com/736x/95/f8/ba/95f8ba606c780819a15b5905a43c2de7.jpg"
+        "image": "https://i.pinimg.com/736x/7b/d2/3b/7bd23bd9a5ecd02100f8673f8edb747f.jpg"
       }
     },
-    "name": "Fuga 'estratégica' (BRST02-JJK-1-017)",
+    "name": "Semente de Transfigurado (BRST02-JJK-1-017)",
     "type": "Evento",
     "cost": 2,
     "color": [
-      "WHITE"
+      "PURPLE"
     ]
   },
   "BRST02-JJK-1-018": {
@@ -826,21 +822,21 @@
     "face": {
       "front": {
         "name": {
-          "name": "Sementes de Transfiguração (BRST02-JJK-1-018)"
+          "name": "Fuga 'Estratégica' (BRST02-JJK-1-018)"
         },
         "type": "Evento",
         "cost": 2,
         "color": [
-          "PURPLE"
+          "WHITE"
         ],
-        "image": "https://i.pinimg.com/736x/6c/e1/71/6ce171a987a9db29c09104021896d18d.jpg"
+        "image": "https://i.pinimg.com/736x/ee/a6/8b/eea68ba33710eeed1c0c1d2b04713df0.jpg"
       }
     },
-    "name": "Sementes de Transfiguração (BRST02-JJK-1-018)",
+    "name": "Fuga 'Estratégica' (BRST02-JJK-1-018)",
     "type": "Evento",
     "cost": 2,
     "color": [
-      "PURPLE"
+      "WHITE"
     ]
   }
 }
